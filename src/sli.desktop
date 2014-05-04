@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+
+Name=Salix-Live Installation
+Name[fr]=Installation de Salix-Live
+Name[el]=Εγκατάσταση του Salix-Live
+
+Categories=System
+Exec=gksu /usr/sbin/sli
+Icon=sli
+NotShowIn=KDE
