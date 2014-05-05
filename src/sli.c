@@ -1,5 +1,4 @@
-/*	- added support for setting root password on installation system by [Dimitris Tzemos <djemos@slackel.gr>]
-	- adeed support for creating a user name and user password on installation system by [Dimitris Tzemos <djemos@slackel.gr>]
+/*	- adeed support for creating a user name and user password on installation system by [Dimitris Tzemos <djemos@slackel.gr>]
 	- added partition manager connectivity in gui by [Dimitris Tzemos <djemos@slackel.gr>]
 	*/
 
