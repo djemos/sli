@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sli-1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-15 17:44+0300\n"
-"PO-Revision-Date: 2014-04-15 17:45+0200\n"
-"Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
+"POT-Creation-Date: 2014-10-24 02:42+0300\n"
+"PO-Revision-Date: 2014-10-24 02:43+0200\n"
+"Last-Translator: Dimitris Tzemos <djemos@slackel.gr>\n"
 "Language-Team: slackel <dijemos@gmail.com>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -56,19 +56,19 @@ msgstr ""
 "\n"
 "Παρακαλώ διορθώστε τα.\n"
 
-#: src/sli.ui:270
+#: src/sli.ui:282
 msgid "_File"
 msgstr "_Αρχείο"
 
-#: src/sli.ui:300
+#: src/sli.ui:312
 msgid "_Help"
 msgstr "_Βοήθεια"
 
-#: src/sli.ui:392
+#: src/sli.ui:404
 msgid "Partitions"
 msgstr "Διαχειριστής κατατμήσεων"
 
-#: src/sli.ui:396
+#: src/sli.ui:408
 msgid ""
 "Important!\n"
 "\n"
@@ -92,7 +92,7 @@ msgstr ""
 "με προσοχή. Επομένως, συνιστάται να δημιουργήσετε αντίγραφα ασφαλείας των\n"
 " σημαντικών δεδομένων πριν από την έναρξη αυτής της διαδικασίας."
 
-#: src/sli.ui:435
+#: src/sli.ui:447
 msgid ""
 "<i>Warning: copy / installation wipes everything on the selected location.</"
 "i>"
@@ -100,59 +100,59 @@ msgstr ""
 "<i>Προειδοποίηση: Η αντιγραφή / εγκατάσταση διαγράφει τα πάντα στην "
 "επιλεγμένη τοποθεσία.</i>"
 
-#: src/sli.ui:461
+#: src/sli.ui:473
 msgid "Copy location:"
 msgstr "Αντιγραφή σε:"
 
-#: src/sli.ui:500
+#: src/sli.ui:512
 msgid "click here if you want to copy system to usb"
 msgstr "Κάντε κλικ εδώ αν θέλετε να αντιγράψετε το σύστημα σε usb"
 
-#: src/sli.ui:522
+#: src/sli.ui:534
 msgid "Copy live system to usb"
 msgstr "Αντιγραφή live συστήματος σε usb"
 
-#: src/sli.ui:576
+#: src/sli.ui:588
 msgid "Install location:"
 msgstr "Εγκατάσταση σε:"
 
-#: src/sli.ui:581
+#: src/sli.ui:593
 msgid "Install (e)LiLo"
 msgstr "Εγκατάσταση (e)LiLo"
 
-#: src/sli.ui:585
+#: src/sli.ui:597
 msgid "check this if you want to install (e)Lilo boot loader"
 msgstr "Κάντε κλικ εδώ αν θέλετε να εγκαταστήσετε το (e)Lilo boot loader"
 
-#: src/sli.ui:626
+#: src/sli.ui:638
 msgid "click here if you want to install system on hard disk"
 msgstr "Κάντε κλικ εδώ αν θέλετε να εγκαταστήσετε το σύστημα στο σκληρό δίσκο"
 
-#: src/sli.ui:648
+#: src/sli.ui:660
 msgid "Install live system"
 msgstr "Εγκατάσταση live συστήματος"
 
-#: src/sli.ui:747
-msgid "Actions needed before proceed on system installation.\n"
+#: src/sli.ui:759
+msgid "Actions needed before proceeding with system installation.\n"
 msgstr ""
 "Ενέργειες που χρειάζονται πριν προχωρήσετε στην εγκατάσταση του συστήματος.\n"
 
-#: src/sli.ui:811
+#: src/sli.ui:823
 msgid ""
 "Define login name, choose a password to be coupled with your login name."
 msgstr ""
 "Ορισμός ονόματος χρήστη, ορισμός κωδικού χρήστη\n"
 "για είσοδο στο σύστημα."
 
-#: src/sli.ui:844
+#: src/sli.ui:856
 msgid "user name"
 msgstr "Όνομα χρήστη"
 
-#: src/sli.ui:855
+#: src/sli.ui:867
 msgid "user password"
 msgstr "Συνθηματικό χρήστη"
 
-#: src/sli.ui:867
+#: src/sli.ui:879
 msgid ""
 "Here you must define your login name which should only include\n"
 "alphanumerical characters with no space or upper case letters. "
@@ -161,7 +161,7 @@ msgstr ""
 "περιλαμβάνει μόνο αλφαριθμητικούς χαρακτήρες χωρίς κενά\n"
 "και κεφαλαία."
 
-#: src/sli.ui:887
+#: src/sli.ui:899
 msgid ""
 "Choose a password or passphrase to be coupled with your\n"
 "login name. Your password or passprase should include a mix\n"
@@ -172,17 +172,17 @@ msgstr ""
 "να περιλαμβάνει πεζά και κεφαλαία, νούμερα, ακόμα και\n"
 "σύμβολα (όπως @, ! και &)."
 
-#: src/sli.ui:910
+#: src/sli.ui:925
 msgid ""
 "Here you must retype your password as\n"
 "a confirmation of your choice."
 msgstr "Εδώ πρέπει να επανεισάγετε τον κωδικό χρήστη για επαλήθευση."
 
-#: src/sli.ui:929
+#: src/sli.ui:947
 msgid "visible"
 msgstr "Ορατό"
 
-#: src/sli.ui:934
+#: src/sli.ui:952
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
@@ -190,15 +190,15 @@ msgstr ""
 "Επιλέξτε το αν επιθυμείτε να εμφανίζεται ο κωδικός\n"
 "κατά την πληκτρολόγηση."
 
-#: src/sli.ui:984
+#: src/sli.ui:1008
 msgid "Choose installation mode"
 msgstr "Επιλέξτε τρόπο εγκατάστασης"
 
-#: src/sli.ui:1009
+#: src/sli.ui:1033
 msgid "core installation"
 msgstr "Εγκατάσταση core"
 
-#: src/sli.ui:1014
+#: src/sli.ui:1038
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
@@ -214,11 +214,11 @@ msgstr ""
 "τροποποιήσουν μια εγκατάσταση για οποιοδήποτε σκοπό, όπως\n"
 "web server, file server κλπ."
 
-#: src/sli.ui:1032
+#: src/sli.ui:1056
 msgid "basic installation"
 msgstr "Εγκατάσταση basic"
 
-#: src/sli.ui:1037
+#: src/sli.ui:1061
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
@@ -235,11 +235,11 @@ msgstr ""
 " εγκαταστήσουν ένα ελαφρύ σύστημα και να προσθέσουν τη δική  \n"
 "τους επιλογή εφαρμογών."
 
-#: src/sli.ui:1055
+#: src/sli.ui:1079
 msgid "full installation"
 msgstr "Εγκατάσταση full"
 
-#: src/sli.ui:1060
+#: src/sli.ui:1084
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
@@ -253,7 +253,7 @@ msgstr ""
 "πλήρη επιλογή εφαρμογών, πάντα σύμφωνα με τη λογική \n"
 "\"μία εφαρμογή για κάθε εργασία\"."
 
-#: src/sli.ui:1113
+#: src/sli.ui:1125
 msgid "Error: system is not live."
 msgstr "Σφάλμα: Το σύστημα δεν είναι live."
 
