@@ -1,4 +1,8 @@
+2015-07-18: sli-1.2.1:
+	- added support for setting home partition by [Dimitris Tzemos <djemos@slackel.gr>]
+	- added grub and lilo boot loaders by [Dimitris Tzemos <djemos@slackel.gr>]
 2014-04-04: sli-1.2: 
+	- added support for setting root password on installation system by [Dimitris Tzemos <djemos@slackel.gr>]
 	- added support for creating a user name and user password on installation system by [Dimitris Tzemos <djemos@slackel.gr>]
 	- added partition manager connectivity in gui by [Dimitris Tzemos <djemos@slackel.gr>]
 	- added support for core, basic, full mode installation by [Dimitris Tzemos <djemos@slackel.gr>]

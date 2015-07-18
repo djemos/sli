@@ -3,8 +3,8 @@
 cd $(dirname $0)
 mkdir -p pkg
 export DESTDIR=$PWD/pkg
-VER=1.2
-ARCH=${ARCH:-i486}
+VER=1.2.1
+ARCH=${ARCH:-x86_64}
 RLZ=1dj
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr .

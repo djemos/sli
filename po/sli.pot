@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-24 02:42+0300\n"
+"POT-Creation-Date: 2015-07-18 13:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,35 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/sli.ui:10
-msgid "About"
-msgstr ""
-
-#: src/sli.ui:19
-msgid "http://slackware-live.tuxfamily.org"
-msgstr ""
-
-#: src/sli.ui:20
-msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
-msgstr ""
-
-#: src/sli.ui:53 src/sli.ui:100
-msgid "sli"
+#: src/sli.ui:12
+msgid ""
+"Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
 msgstr ""
 
 #: src/sli.ui:63
-msgid "Error encountered."
-msgstr ""
-
-#: src/sli.ui:109
-msgid "Installation completed."
-msgstr ""
-
-#: src/sli.ui:148
 msgid "Your two user password entries do not match. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:199
+#: src/sli.ui:114
 msgid ""
 "user name and user password entries \n"
 "cannot be emtpy.\n"
@@ -54,19 +35,23 @@ msgid ""
 "Please verify and correct.\n"
 msgstr ""
 
-#: src/sli.ui:282
+#: src/sli.ui:219
+msgid "Error: system is not live."
+msgstr ""
+
+#: src/sli.ui:270
 msgid "_File"
 msgstr ""
 
-#: src/sli.ui:312
+#: src/sli.ui:300
 msgid "_Help"
 msgstr ""
 
-#: src/sli.ui:404
+#: src/sli.ui:392
 msgid "Partitions"
 msgstr ""
 
-#: src/sli.ui:408
+#: src/sli.ui:396
 msgid ""
 "Important!\n"
 "\n"
@@ -81,68 +66,88 @@ msgid ""
 "to backup important data before starting this procedure."
 msgstr ""
 
-#: src/sli.ui:447
+#: src/sli.ui:435
 msgid ""
 "<i>Warning: copy / installation wipes everything on the selected location.</"
 "i>"
 msgstr ""
 
-#: src/sli.ui:473
+#: src/sli.ui:461
 msgid "Copy location:"
 msgstr ""
 
-#: src/sli.ui:512
+#: src/sli.ui:500
 msgid "click here if you want to copy system to usb"
 msgstr ""
 
-#: src/sli.ui:534
+#: src/sli.ui:522
 msgid "Copy live system to usb"
 msgstr ""
 
-#: src/sli.ui:588
+#: src/sli.ui:585
 msgid "Install location:"
 msgstr ""
 
-#: src/sli.ui:593
+#: src/sli.ui:590
 msgid "Install (e)LiLo"
 msgstr ""
 
-#: src/sli.ui:597
+#: src/sli.ui:594
 msgid "check this if you want to install (e)Lilo boot loader"
 msgstr ""
 
+#: src/sli.ui:627
+msgid "Home location:"
+msgstr ""
+
 #: src/sli.ui:638
+msgid ""
+"If you want to use a home partition to another disk then choose one from "
+"here.\n"
+"Otherwise leave it empty."
+msgstr ""
+
+#: src/sli.ui:657
+msgid "Install Grub"
+msgstr ""
+
+#: src/sli.ui:661
+msgid "check this if you want to install Grub boot loader"
+msgstr ""
+
+#: src/sli.ui:684
 msgid "click here if you want to install system on hard disk"
 msgstr ""
 
-#: src/sli.ui:660
+#: src/sli.ui:706
 msgid "Install live system"
 msgstr ""
 
-#: src/sli.ui:759
+#: src/sli.ui:805
 msgid "Actions needed before proceeding with system installation.\n"
 msgstr ""
 
-#: src/sli.ui:823
+#: src/sli.ui:869
 msgid ""
-"Define login name, choose a password to be coupled with your login name."
+"Define login name, choose a password to be coupled with your\n"
+"login name."
 msgstr ""
 
-#: src/sli.ui:856
+#: src/sli.ui:903
 msgid "user name"
 msgstr ""
 
-#: src/sli.ui:867
+#: src/sli.ui:914
 msgid "user password"
 msgstr ""
 
-#: src/sli.ui:879
+#: src/sli.ui:926
 msgid ""
 "Here you must define your login name which should only include\n"
 "alphanumerical characters with no space or upper case letters. "
 msgstr ""
 
-#: src/sli.ui:899
+#: src/sli.ui:946
 msgid ""
 "Choose a password or passphrase to be coupled with your\n"
 "login name. Your password or passprase should include a mix\n"
@@ -150,31 +155,31 @@ msgid ""
 "(such as the @, !, and &)"
 msgstr ""
 
-#: src/sli.ui:925
+#: src/sli.ui:972
 msgid ""
 "Here you must retype your password as\n"
 "a confirmation of your choice."
 msgstr ""
 
-#: src/sli.ui:947
+#: src/sli.ui:994
 msgid "visible"
 msgstr ""
 
-#: src/sli.ui:952
+#: src/sli.ui:999
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
 msgstr ""
 
-#: src/sli.ui:1008
+#: src/sli.ui:1055
 msgid "Choose installation mode"
 msgstr ""
 
-#: src/sli.ui:1033
+#: src/sli.ui:1080
 msgid "core installation"
 msgstr ""
 
-#: src/sli.ui:1038
+#: src/sli.ui:1085
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
@@ -184,11 +189,11 @@ msgid ""
 "file server etc. "
 msgstr ""
 
-#: src/sli.ui:1056
+#: src/sli.ui:1103
 msgid "basic installation"
 msgstr ""
 
-#: src/sli.ui:1061
+#: src/sli.ui:1108
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
@@ -198,11 +203,11 @@ msgid ""
 "choice of applications. "
 msgstr ""
 
-#: src/sli.ui:1079
+#: src/sli.ui:1126
 msgid "full installation"
 msgstr ""
 
-#: src/sli.ui:1084
+#: src/sli.ui:1131
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
@@ -211,8 +216,28 @@ msgid ""
 "always following the \"one application per task\" rationale. "
 msgstr ""
 
-#: src/sli.ui:1125
-msgid "Error: system is not live."
+#: src/sli.ui:1168
+msgid "About"
+msgstr ""
+
+#: src/sli.ui:1177
+msgid "http://slackware-live.tuxfamily.org"
+msgstr ""
+
+#: src/sli.ui:1178
+msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
+msgstr ""
+
+#: src/sli.ui:1211 src/sli.ui:1258
+msgid "sli"
+msgstr ""
+
+#: src/sli.ui:1221
+msgid "Error encountered."
+msgstr ""
+
+#: src/sli.ui:1267
+msgid "Installation completed."
 msgstr ""
 
 #: src/sli.desktop.in.h:1 src/sli-kde.desktop.in.h:1
