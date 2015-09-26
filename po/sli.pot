@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-18 13:07+0300\n"
+"POT-Creation-Date: 2015-09-26 09:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,23 +35,19 @@ msgid ""
 "Please verify and correct.\n"
 msgstr ""
 
-#: src/sli.ui:219
-msgid "Error: system is not live."
-msgstr ""
-
-#: src/sli.ui:270
+#: src/sli.ui:227
 msgid "_File"
 msgstr ""
 
-#: src/sli.ui:300
+#: src/sli.ui:257
 msgid "_Help"
 msgstr ""
 
-#: src/sli.ui:392
+#: src/sli.ui:349
 msgid "Partitions"
 msgstr ""
 
-#: src/sli.ui:396
+#: src/sli.ui:353
 msgid ""
 "Important!\n"
 "\n"
@@ -66,88 +62,88 @@ msgid ""
 "to backup important data before starting this procedure."
 msgstr ""
 
-#: src/sli.ui:435
+#: src/sli.ui:392
 msgid ""
 "<i>Warning: copy / installation wipes everything on the selected location.</"
 "i>"
 msgstr ""
 
-#: src/sli.ui:461
+#: src/sli.ui:418
 msgid "Copy location:"
 msgstr ""
 
-#: src/sli.ui:500
+#: src/sli.ui:457
 msgid "click here if you want to copy system to usb"
 msgstr ""
 
-#: src/sli.ui:522
+#: src/sli.ui:479
 msgid "Copy live system to usb"
 msgstr ""
 
-#: src/sli.ui:585
+#: src/sli.ui:542
 msgid "Install location:"
 msgstr ""
 
-#: src/sli.ui:590
+#: src/sli.ui:547
 msgid "Install (e)LiLo"
 msgstr ""
 
-#: src/sli.ui:594
+#: src/sli.ui:551
 msgid "check this if you want to install (e)Lilo boot loader"
 msgstr ""
 
-#: src/sli.ui:627
+#: src/sli.ui:584
 msgid "Home location:"
 msgstr ""
 
-#: src/sli.ui:638
+#: src/sli.ui:595
 msgid ""
 "If you want to use a home partition to another disk then choose one from "
 "here.\n"
 "Otherwise leave it empty."
 msgstr ""
 
-#: src/sli.ui:657
+#: src/sli.ui:614
 msgid "Install Grub"
 msgstr ""
 
-#: src/sli.ui:661
+#: src/sli.ui:618
 msgid "check this if you want to install Grub boot loader"
 msgstr ""
 
-#: src/sli.ui:684
+#: src/sli.ui:641
 msgid "click here if you want to install system on hard disk"
 msgstr ""
 
-#: src/sli.ui:706
+#: src/sli.ui:663
 msgid "Install live system"
 msgstr ""
 
-#: src/sli.ui:805
+#: src/sli.ui:727
 msgid "Actions needed before proceeding with system installation.\n"
 msgstr ""
 
-#: src/sli.ui:869
+#: src/sli.ui:791
 msgid ""
 "Define login name, choose a password to be coupled with your\n"
 "login name."
 msgstr ""
 
-#: src/sli.ui:903
+#: src/sli.ui:825
 msgid "user name"
 msgstr ""
 
-#: src/sli.ui:914
+#: src/sli.ui:836
 msgid "user password"
 msgstr ""
 
-#: src/sli.ui:926
+#: src/sli.ui:848
 msgid ""
 "Here you must define your login name which should only include\n"
 "alphanumerical characters with no space or upper case letters. "
 msgstr ""
 
-#: src/sli.ui:946
+#: src/sli.ui:868
 msgid ""
 "Choose a password or passphrase to be coupled with your\n"
 "login name. Your password or passprase should include a mix\n"
@@ -155,31 +151,31 @@ msgid ""
 "(such as the @, !, and &)"
 msgstr ""
 
-#: src/sli.ui:972
+#: src/sli.ui:894
 msgid ""
 "Here you must retype your password as\n"
 "a confirmation of your choice."
 msgstr ""
 
-#: src/sli.ui:994
+#: src/sli.ui:925
 msgid "visible"
 msgstr ""
 
-#: src/sli.ui:999
+#: src/sli.ui:930
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
 msgstr ""
 
-#: src/sli.ui:1055
+#: src/sli.ui:995
 msgid "Choose installation mode"
 msgstr ""
 
-#: src/sli.ui:1080
+#: src/sli.ui:1020
 msgid "core installation"
 msgstr ""
 
-#: src/sli.ui:1085
+#: src/sli.ui:1025
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
@@ -189,11 +185,11 @@ msgid ""
 "file server etc. "
 msgstr ""
 
-#: src/sli.ui:1103
+#: src/sli.ui:1043
 msgid "basic installation"
 msgstr ""
 
-#: src/sli.ui:1108
+#: src/sli.ui:1048
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
@@ -203,11 +199,11 @@ msgid ""
 "choice of applications. "
 msgstr ""
 
-#: src/sli.ui:1126
+#: src/sli.ui:1066
 msgid "full installation"
 msgstr ""
 
-#: src/sli.ui:1131
+#: src/sli.ui:1071
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
@@ -216,28 +212,32 @@ msgid ""
 "always following the \"one application per task\" rationale. "
 msgstr ""
 
-#: src/sli.ui:1168
+#: src/sli.ui:1147
 msgid "About"
 msgstr ""
 
-#: src/sli.ui:1177
+#: src/sli.ui:1156
 msgid "http://slackware-live.tuxfamily.org"
 msgstr ""
 
-#: src/sli.ui:1178
+#: src/sli.ui:1157
 msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
 msgstr ""
 
-#: src/sli.ui:1211 src/sli.ui:1258
+#: src/sli.ui:1193 src/sli.ui:1240
 msgid "sli"
 msgstr ""
 
-#: src/sli.ui:1221
+#: src/sli.ui:1203
 msgid "Error encountered."
 msgstr ""
 
-#: src/sli.ui:1267
+#: src/sli.ui:1249
 msgid "Installation completed."
+msgstr ""
+
+#: src/sli.ui:1290
+msgid "Error: system is not live."
 msgstr ""
 
 #: src/sli.desktop.in.h:1 src/sli-kde.desktop.in.h:1
