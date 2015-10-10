@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# splanckx <splanckx@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: salix-live-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-26 09:25+0300\n"
+"PO-Revision-Date: 2015-10-04 09:17+0000\n"
+"Last-Translator: splanckx <splanckx@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/djemos/salix-live-installer/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: src/sli.ui:12
+msgid ""
+"Cannot install both (e)Lilo and Grub boot loaders. Please verify and "
+"correct."
+msgstr "Nu puteți instala (e)Lilo și Grub în același timp.Vă rugăm verificați și corectați."
+
+#: src/sli.ui:63
+msgid ""
+"Your two user password entries do not match. Please verify and correct."
+msgstr "Cele două parole introduse nu se potrivesc.Vă rugăm verificați și corectați. "
+
+#: src/sli.ui:114
+msgid ""
+"user name and user password entries \n"
+"cannot be emtpy.\n"
+"user password should have at least 5 characters\n"
+"\n"
+"Please verify and correct.\n"
+msgstr "numele și parola userului \ntrebuie introduse obligatoriu\nparola userului trebuie să conțină cel puțin 5 caractere\n\nVă rugăm verificați și corectați.\n"
+
+#: src/sli.ui:227
+msgid "_File"
+msgstr "_Fișier"
+
+#: src/sli.ui:257
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: src/sli.ui:349
+msgid "Partitions"
+msgstr "Partiționare"
+
+#: src/sli.ui:353
+msgid ""
+"Important!\n"
+"\n"
+"Salix needs, at the very minimum, one swap partition\n"
+"and one Linux partition to hold its main directory tree.\n"
+"\n"
+"If you do not already have these needed partitions ready, \n"
+"you should now click on the button 'Partitions'\n"
+"in order to create them. Be aware that partitioning a disk\n"
+"drive is a delicate operation which could lead to data loss\n"
+"if not performed cautiously. It is therefore highly advisable\n"
+"to backup important data before starting this procedure."
+msgstr "Important!\n\nSalix necesită,cel puțin o partiție de swap\nși o partiție Linux, necesară instalării sistemului de fișiere.\n\nDacă nu aveți pregătite aceste partiții,\napăsați butonul 'Partiționare'\npentru a le crea. Aveți grijă, deoarece partiționarea unui disc \neste o operație delicată ce poate duce la pierderea de date.\nSunteți avizați să salvați datele aflate pe disc înainte de a începe procedura."
+
+#: src/sli.ui:392
+msgid ""
+"<i>Warning: copy / installation wipes everything on the selected "
+"location.</i>"
+msgstr "<i>Atenție:copierea fișierelor în / șterge tot ce se află pe această partiție.</i>"
+
+#: src/sli.ui:418
+msgid "Copy location:"
+msgstr "Locația pentru copiere:"
+
+#: src/sli.ui:457
+msgid "click here if you want to copy system to usb"
+msgstr "apăsați aici dacă doriți să copiați sistemul pe dispozitiv usb"
+
+#: src/sli.ui:479
+msgid "Copy live system to usb"
+msgstr "Copiere sistem live pe usb"
+
+#: src/sli.ui:542
+msgid "Install location:"
+msgstr "Locația instalării:"
+
+#: src/sli.ui:547
+msgid "Install (e)LiLo"
+msgstr "Instalează (e)Lilo"
+
+#: src/sli.ui:551
+msgid "check this if you want to install (e)Lilo boot loader"
+msgstr "alegeți dacă doriți să instalați încărcătorul de sistem (e)Lilo"
+
+#: src/sli.ui:584
+msgid "Home location:"
+msgstr "Locația partiției home:"
+
+#: src/sli.ui:595
+msgid ""
+"If you want to use a home partition to another disk then choose one from here.\n"
+"Otherwise leave it empty."
+msgstr "Dacă doriți să instalați partiția /home pe alt disc,alegeți aici.\nAltfel,nu modificați."
+
+#: src/sli.ui:614
+msgid "Install Grub"
+msgstr "Instalează Grub"
+
+#: src/sli.ui:618
+msgid "check this if you want to install Grub boot loader"
+msgstr "alegeți dacă vreți să instalați Grub"
+
+#: src/sli.ui:641
+msgid "click here if you want to install system on hard disk"
+msgstr "apăsați aici pentru a instala sistemul pe disc"
+
+#: src/sli.ui:663
+msgid "Install live system"
+msgstr "Instalare sistem live"
+
+#: src/sli.ui:727
+msgid "Actions needed before proceeding with system installation.\n"
+msgstr "Acțiuni necesare înaintea trecerii la instalarea sistemului\n"
+
+#: src/sli.ui:791
+msgid ""
+"Define login name, choose a password to be coupled with your\n"
+"login name."
+msgstr "Definiți userul și alegeți o parolă pentru acesta\npentru a o folosi în momentul logării."
+
+#: src/sli.ui:825
+msgid "user name"
+msgstr "nume user"
+
+#: src/sli.ui:836
+msgid "user password"
+msgstr "parolă user"
+
+#: src/sli.ui:848
+msgid ""
+"Here you must define your login name which should only include\n"
+"alphanumerical characters with no space or upper case letters. "
+msgstr "Aici trebuie să definiți numele de logare care trebuie să includă\ncaractere alfanumerice,fără spații sau litere mari. "
+
+#: src/sli.ui:868
+msgid ""
+"Choose a password or passphrase to be coupled with your\n"
+"login name. Your password or passprase should include a mix\n"
+"of upper and lower case letters, numbers, and even symbols\n"
+"(such as the @, !, and &)"
+msgstr "Alegeți o parolă sau frază pentru \nnumele de logare.Parola sau fraza trebuie să conțină\nun amestec de litere mici,mari,numere și eventual simboluri\n(cum ar fi @,! și &)"
+
+#: src/sli.ui:894
+msgid ""
+"Here you must retype your password as\n"
+"a confirmation of your choice."
+msgstr "Aici trebuie să reintroduceți parola\npentru a confirma alegerea."
+
+#: src/sli.ui:925
+msgid "visible"
+msgstr "vizibil"
+
+#: src/sli.ui:930
+msgid ""
+"Check this box if you want to be able to see the password\n"
+"you are typing."
+msgstr "Apăsați acest buton dacă doriți să vedeți parola\nintrodusă."
+
+#: src/sli.ui:995
+msgid "Choose installation mode"
+msgstr "Alegeți tipul instalării"
+
+#: src/sli.ui:1020
+msgid "core installation"
+msgstr "instalare minimală"
+
+#: src/sli.ui:1025
+msgid ""
+"Core installation:\n"
+"Only the minimum essentials for a console system to start are \n"
+"included. A graphical environment is not provided. This is ideal \n"
+"if you are an experienced user and want to customize your \n"
+"installation for any specific purpose, such as a web server.\n"
+"file server etc. "
+msgstr "Instalare minimală:\nInclude doar pachetele necesare pentru a porni \nsistemul.Mediul grafic nu este inclus.Acesta este ideal\npentru userii experimentați și pentru cei ce doresc să\ncustomizeze instalarea din motive specifice,cum ar fi server\nde web sau fișiere,etc."
+
+#: src/sli.ui:1043
+msgid "basic installation"
+msgstr "instalare de bază"
+
+#: src/sli.ui:1048
+msgid ""
+"Basic installation:\n"
+"This installs only a basic desktop environment, with very few \n"
+"extra applications installed on top, such as a web browser and\n"
+"the gslapt package manager. Ideal for advanced users that \n"
+"would like to install a lightweight system and add their own\n"
+"choice of applications. "
+msgstr "Instalare de bază:\nSe instalează desktop-ul de bază ce include unele extra-aplicații cum ar fi \nun browser de web și managerul de pachete gslapt.Este ideal pentru \nuserii avansați care doresc un sistem cu mai puține aplicații\nși un consum redus de resurse."
+
+#: src/sli.ui:1066
+msgid "full installation"
+msgstr "instalare completă"
+
+#: src/sli.ui:1071
+msgid ""
+"Full installation:\n"
+"Everything that is included in the iso is installed. That includes \n"
+"a complete desktop environment\n"
+"and a complete selection of matching applications,\n"
+"always following the \"one application per task\" rationale. "
+msgstr "Instalare completă:\nCuprinde tot ce este inclus în imaginea iso.Toate aplicațiile\ncare vin cu desktop-ul respectiv sunt incluse."
+
+#: src/sli.ui:1147
+msgid "About"
+msgstr "Despre"
+
+#: src/sli.ui:1156
+msgid "http://slackware-live.tuxfamily.org"
+msgstr "http://slackware-live.tuxfamily.org"
+
+#: src/sli.ui:1157
+msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
+msgstr "CeCILL <http://www.cecill.info/licences.fr.html>"
+
+#: src/sli.ui:1193 src/sli.ui:1240
+msgid "sli"
+msgstr "sli"
+
+#: src/sli.ui:1203
+msgid "Error encountered."
+msgstr "Eroare întâmpinată."
+
+#: src/sli.ui:1249
+msgid "Installation completed."
+msgstr "Instalare terminată."
+
+#: src/sli.ui:1290
+msgid "Error: system is not live."
+msgstr "Eroare: sistemul nu funcționează."
+
+#: src/sli.desktop.in.h:1 src/sli-kde.desktop.in.h:1
+msgid "Salix-Live Installation"
+msgstr "Instalare Salix-Live"
