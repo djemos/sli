@@ -1,5 +1,8 @@
-/*	- adeed support for creating a user name and user password on installation system by [Dimitris Tzemos <djemos@slackel.gr>]
-	- added partition manager connectivity in gui by [Dimitris Tzemos <djemos@slackel.gr>]
+/*	- added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs)
+	- display a progress bar instead of (non user friendly) log
+	- added support for setting /home user directory on a different partition 
+	- adeed support for creating a user name and user password on installation system 
+	- added partition manager connectivity in gui
 	*/
 	
 #include <gtk/gtk.h>
