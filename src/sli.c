@@ -1,7 +1,8 @@
 /*	- added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs)
 	- display a progress bar instead of (non user friendly) log
 	- added support for setting /home user directory on a different partition 
-	- adeed support for creating a user name and user password on installation system 
+	- adeed support for creating a user name and user password on installation system
+	- choose gub or (e)Lilo boot loaders
 	- added partition manager connectivity in gui
 	- added support for core, basic, full mode installation
 	*/
