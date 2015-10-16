@@ -3,6 +3,7 @@
 	- added support for setting /home user directory on a different partition 
 	- adeed support for creating a user name and user password on installation system 
 	- added partition manager connectivity in gui
+	- added support for core, basic, full mode installation
 	*/
 	
 #include <gtk/gtk.h>
