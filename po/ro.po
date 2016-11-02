@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salix-live-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-15 21:44+0300\n"
+"POT-Creation-Date: 2016-10-31 20:47+0200\n"
 "PO-Revision-Date: 2015-10-15 21:57+0200\n"
 "Last-Translator: splanckx <splanckx@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/djemos/salix-live-"
@@ -29,7 +29,7 @@ msgstr "btrfs"
 msgid "ext2"
 msgstr "ext2"
 
-#: src/sli.ui:46
+#: src/sli.ui:46 src/sli.ui:72
 msgid "ext3"
 msgstr "ext3"
 
@@ -49,19 +49,23 @@ msgstr "reiserfs"
 msgid "xfs"
 msgstr "xfs"
 
-#: src/sli.ui:89
+#: src/sli.ui:69
+msgid "vfat"
+msgstr ""
+
+#: src/sli.ui:103
 msgid "_File"
 msgstr "_Fișier"
 
-#: src/sli.ui:119
+#: src/sli.ui:133
 msgid "_Help"
 msgstr "_Ajutor"
 
-#: src/sli.ui:211
+#: src/sli.ui:225
 msgid "Partitions"
 msgstr "Partiționare"
 
-#: src/sli.ui:215
+#: src/sli.ui:229
 msgid ""
 "Important!\n"
 "\n"
@@ -87,7 +91,7 @@ msgstr ""
 "Sunteți avizați să salvați datele aflate pe disc înainte de a începe "
 "procedura."
 
-#: src/sli.ui:254
+#: src/sli.ui:268
 msgid ""
 "<i>Warning: copy / installation wipes everything on the selected location.</"
 "i>"
@@ -95,55 +99,64 @@ msgstr ""
 "<i>Atenție:copierea fișierelor în / șterge tot ce se află pe această "
 "partiție.</i>"
 
-#: src/sli.ui:280
+#: src/sli.ui:294 src/sli.ui:307
+msgid ""
+"choose the usb device to copy the live system (e.g. /dev/sdb, /dev/sdc etc)"
+msgstr ""
+
+#: src/sli.ui:295
 msgid "Copy location:"
 msgstr "Locația pentru copiere:"
 
-#: src/sli.ui:319
+#: src/sli.ui:335
 msgid "click here if you want to copy system to usb"
 msgstr "apăsați aici dacă doriți să copiați sistemul pe dispozitiv usb"
 
-#: src/sli.ui:341
+#: src/sli.ui:357
 msgid "Copy live system to usb"
 msgstr "Copiere sistem live pe usb"
 
-#: src/sli.ui:393
-msgid "Install (e)LiLo"
-msgstr "Instalează (e)Lilo"
-
-#: src/sli.ui:397
-msgid "check this if you want to install (e)Lilo boot loader"
-msgstr "alegeți dacă doriți să instalați încărcătorul de sistem (e)Lilo"
-
-#: src/sli.ui:411
-msgid "choose the Linux partition to hold the main directory tree."
+#: src/sli.ui:383 src/sli.ui:396
+msgid "Choose the filesystem type to format usb."
 msgstr ""
 
-#: src/sli.ui:427
-msgid "Install Grub"
-msgstr "Instalează Grub"
-
-#: src/sli.ui:431
-msgid "check this if you want to install Grub boot loader"
-msgstr "alegeți dacă vreți să instalați Grub"
-
-#: src/sli.ui:444
-msgid "Install location:"
-msgstr "Locația instalării:"
-
-#: src/sli.ui:451
+#: src/sli.ui:384 src/sli.ui:513
 msgid "Filesystem Type:"
 msgstr ""
 
-#: src/sli.ui:462
+#: src/sli.ui:453
+msgid "Install (e)LiLo"
+msgstr "Instalează (e)Lilo"
+
+#: src/sli.ui:457
+msgid "check this if you want to install (e)Lilo boot loader"
+msgstr "alegeți dacă doriți să instalați încărcătorul de sistem (e)Lilo"
+
+#: src/sli.ui:471 src/sli.ui:504
+msgid "choose the Linux partition to hold the main directory tree."
+msgstr ""
+
+#: src/sli.ui:487
+msgid "Install Grub"
+msgstr "Instalează Grub"
+
+#: src/sli.ui:491
+msgid "check this if you want to install Grub boot loader"
+msgstr "alegeți dacă vreți să instalați Grub"
+
+#: src/sli.ui:505
+msgid "Install location:"
+msgstr "Locația instalării:"
+
+#: src/sli.ui:512 src/sli.ui:524
 msgid "Choose the filesystem type to format partition(s)."
 msgstr ""
 
-#: src/sli.ui:483
+#: src/sli.ui:545
 msgid "Home location:"
 msgstr "Locația partiției home:"
 
-#: src/sli.ui:494
+#: src/sli.ui:556
 msgid ""
 "If you want to use a home partition to another disk then choose one from "
 "here.\n"
@@ -152,27 +165,27 @@ msgstr ""
 "Dacă doriți să instalați partiția /home pe alt disc,alegeți aici.\n"
 "Altfel,nu modificați."
 
-#: src/sli.ui:513
+#: src/sli.ui:575
 msgid "Format Ηome"
 msgstr ""
 
-#: src/sli.ui:517
+#: src/sli.ui:579
 msgid "check this if you want to format /home partition"
 msgstr ""
 
-#: src/sli.ui:539
+#: src/sli.ui:600
 msgid "click here if you want to install system on hard disk"
 msgstr "apăsați aici pentru a instala sistemul pe disc"
 
-#: src/sli.ui:561
+#: src/sli.ui:622
 msgid "Install live system"
 msgstr "Instalare sistem live"
 
-#: src/sli.ui:625
+#: src/sli.ui:686
 msgid "Actions needed before proceeding with system installation.\n"
 msgstr "Acțiuni necesare înaintea trecerii la instalarea sistemului\n"
 
-#: src/sli.ui:689
+#: src/sli.ui:750
 msgid ""
 "Define login name, choose a password to be coupled with your\n"
 "login name."
@@ -180,15 +193,15 @@ msgstr ""
 "Definiți userul și alegeți o parolă pentru acesta\n"
 "pentru a o folosi în momentul logării."
 
-#: src/sli.ui:723
+#: src/sli.ui:784
 msgid "user name"
 msgstr "nume user"
 
-#: src/sli.ui:734
+#: src/sli.ui:795
 msgid "user password"
 msgstr "parolă user"
 
-#: src/sli.ui:746
+#: src/sli.ui:807
 msgid ""
 "Here you must define your login name which should only include\n"
 "alphanumerical characters with no space or upper case letters. "
@@ -196,7 +209,7 @@ msgstr ""
 "Aici trebuie să definiți numele de logare care trebuie să includă\n"
 "caractere alfanumerice,fără spații sau litere mari. "
 
-#: src/sli.ui:766
+#: src/sli.ui:827
 msgid ""
 "Choose a password or passphrase to be coupled with your\n"
 "login name. Your password or passprase should include a mix\n"
@@ -208,7 +221,7 @@ msgstr ""
 "un amestec de litere mici,mari,numere și eventual simboluri\n"
 "(cum ar fi @,! și &)"
 
-#: src/sli.ui:789
+#: src/sli.ui:853
 msgid ""
 "Here you must retype your password as\n"
 "a confirmation of your choice."
@@ -216,11 +229,11 @@ msgstr ""
 "Aici trebuie să reintroduceți parola\n"
 "pentru a confirma alegerea."
 
-#: src/sli.ui:808
+#: src/sli.ui:896
 msgid "visible"
 msgstr "vizibil"
 
-#: src/sli.ui:813
+#: src/sli.ui:901
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
@@ -228,15 +241,15 @@ msgstr ""
 "Apăsați acest buton dacă doriți să vedeți parola\n"
 "introdusă."
 
-#: src/sli.ui:863
+#: src/sli.ui:978
 msgid "Choose installation mode"
 msgstr "Alegeți tipul instalării"
 
-#: src/sli.ui:888
+#: src/sli.ui:1003
 msgid "core installation"
 msgstr "instalare minimală"
 
-#: src/sli.ui:893
+#: src/sli.ui:1008
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
@@ -252,11 +265,11 @@ msgstr ""
 "customizeze instalarea din motive specifice,cum ar fi server\n"
 "de web sau fișiere,etc."
 
-#: src/sli.ui:911
+#: src/sli.ui:1026
 msgid "basic installation"
 msgstr "instalare de bază"
 
-#: src/sli.ui:916
+#: src/sli.ui:1031
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
@@ -272,11 +285,11 @@ msgstr ""
 "userii avansați care doresc un sistem cu mai puține aplicații\n"
 "și un consum redus de resurse."
 
-#: src/sli.ui:934
+#: src/sli.ui:1049
 msgid "full installation"
 msgstr "instalare completă"
 
-#: src/sli.ui:939
+#: src/sli.ui:1054
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
@@ -288,54 +301,55 @@ msgstr ""
 "Cuprinde tot ce este inclus în imaginea iso.Toate aplicațiile\n"
 "care vin cu desktop-ul respectiv sunt incluse."
 
-#: src/sli.ui:1015
+#: src/sli.ui:1130
 msgid "About"
 msgstr "Despre"
 
-#: src/sli.ui:1024
+#: src/sli.ui:1139
 msgid "http://slackware-live.tuxfamily.org"
 msgstr "http://slackware-live.tuxfamily.org"
 
-#: src/sli.ui:1025
+#: src/sli.ui:1140
 msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
 msgstr "CeCILL <http://www.cecill.info/licences.fr.html>"
 
-#: src/sli.ui:1028
-msgid "Dimitris Tzemos <djemos@slackel.gr> (greek)"
+#: src/sli.ui:1143
+#, fuzzy
+msgid "Dimitris Tzemos <dijemos@gmail.com> (greek)"
 msgstr "Dimitris Tzemos <djemos@slackel.gr> (greek)"
 
-#: src/sli.ui:1059
+#: src/sli.ui:1174
 msgid ""
 "Cannot install Grub boot loader on an xfs filesystem. System will not "
 "boot. \n"
 "Choose (e)Lilo instead. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:1100
+#: src/sli.ui:1215
 msgid ""
 "Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
 msgstr ""
 "Nu puteți instala (e)Lilo și Grub în același timp.Vă rugăm verificați și "
 "corectați."
 
-#: src/sli.ui:1136 src/sli.ui:1183
+#: src/sli.ui:1251 src/sli.ui:1298
 msgid "sli"
 msgstr "sli"
 
-#: src/sli.ui:1146
+#: src/sli.ui:1261
 msgid "Error encountered."
 msgstr "Eroare întâmpinată."
 
-#: src/sli.ui:1192
+#: src/sli.ui:1307
 msgid "Installation completed."
 msgstr "Instalare terminată."
 
-#: src/sli.ui:1236
+#: src/sli.ui:1351
 msgid "Your two user password entries do not match. Please verify and correct."
 msgstr ""
 "Cele două parole introduse nu se potrivesc.Vă rugăm verificați și corectați. "
 
-#: src/sli.ui:1279
+#: src/sli.ui:1394
 #, fuzzy
 msgid ""
 "user name and user password entries \n"
@@ -351,7 +365,7 @@ msgstr ""
 "\n"
 "Vă rugăm verificați și corectați.\n"
 
-#: src/sli.ui:1325
+#: src/sli.ui:1440
 msgid "Error: system is not live."
 msgstr "Eroare: sistemul nu funcționează."
 

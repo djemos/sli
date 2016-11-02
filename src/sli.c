@@ -1,12 +1,12 @@
-/*	- added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs)
-	- display a progress bar instead of (non user friendly) log
-	- added support for setting /home user directory on a different partition 
+/*  - added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs)
+ 	- display a progress bar instead of (non user friendly) log
+ 	- added support for setting /home user directory on a different partition 
 	- added support for creating a user name and user password on installation system
-	- choose gub or (e)Lilo boot loaders
-	- added partition manager connectivity in gui
-	- added support for core, basic, full mode installation
-	*/
-	
+ 	- choose gub or (e)Lilo boot loaders
+ 	- added partition manager connectivity in gui
+ 	- added support for core, basic, full mode installation
+ 	*/
+ 	
 #include <gtk/gtk.h>
 #include <string.h>
 #include <sys/types.h>
@@ -21,7 +21,7 @@
 #include "sli.h"
 
 void do_action (gboolean copy) {
-	gchar *commandline, **command, *output, *home, *fstype;
+	gchar *commandline, **command, *output, *home, *fstype, *usbfstype;
 	GtkComboBox *listwidget;
 	GtkTreeIter iter;
 	GtkListStore *list;
@@ -62,6 +62,14 @@ void do_action (gboolean copy) {
 	if (strlen(fstype) == 0) {
 		g_free(fstype);
 		fstype = g_strdup("ext4");
+	}
+	listwidget = (GtkComboBox *) gtk_builder_get_object(widgetstree, "usbfilesystem");
+	gtk_combo_box_get_active_iter(listwidget, &iter);
+	list = (GtkListStore *) gtk_combo_box_get_model(listwidget);
+	gtk_tree_model_get((GtkTreeModel *) list, &iter, 0, &usbfstype, -1);
+	if (strlen(usbfstype) == 0) {
+		g_free(usbfstype);
+		usbfstype = g_strdup("vfat");
 	}
 
 	//
@@ -111,7 +119,7 @@ void do_action (gboolean copy) {
 	if (copy) {
 		g_spawn_command_line_sync("du -s -m /live/media", &output, NULL, NULL, NULL);
 		totalsize = g_ascii_strtoull(output, NULL, 10);
-		commandline = g_strdup_printf("build-slackware-live.sh --usb /live/media %s\n", location);
+		commandline = g_strdup_printf("build-slackware-live.sh --usb /live/media %s %s\n", location, usbfstype);
 	} else {
 			if (gtk_toggle_button_get_active((GtkToggleButton*) gtk_builder_get_object(widgetstree, "lilo"))) {
 					g_spawn_command_line_sync("du -s -m /live/modules", &output, NULL, NULL, NULL);
@@ -147,6 +155,7 @@ void do_action (gboolean copy) {
 	gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "lilo"), FALSE);
 	gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "format_home"), FALSE);
 	gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "filesystem"), FALSE);
+	gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "usbfilesystem"), FALSE);
 	gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "core"), FALSE);
 	gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "basic"), FALSE);
 	gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "full"), FALSE);
@@ -207,7 +216,7 @@ void on_install_btn_clicked (GtkWidget *widget, gpointer user_data) {
 
 	GtkWidget *userpassword1;
 	
-	gchar *fstype;
+	gchar *fstype, *usbfstype;
 	GtkComboBox *listwidget;
 	GtkTreeIter iter;
 	GtkListStore *list;
@@ -221,6 +230,11 @@ void on_install_btn_clicked (GtkWidget *widget, gpointer user_data) {
 	gtk_combo_box_get_active_iter(listwidget, &iter);
 	list = (GtkListStore *) gtk_combo_box_get_model(listwidget);
 	gtk_tree_model_get((GtkTreeModel *) list, &iter, 0, &fstype, -1);
+	
+	listwidget = (GtkComboBox *) gtk_builder_get_object(widgetstree, "usbfilesystem");
+	gtk_combo_box_get_active_iter(listwidget, &iter);
+	list = (GtkListStore *) gtk_combo_box_get_model(listwidget);
+	gtk_tree_model_get((GtkTreeModel *) list, &iter, 0, &usbfstype, -1);
 	
 	if (gtk_entry_get_text_length (GTK_ENTRY(username)) == 0
 			|| (gtk_entry_get_text_length (GTK_ENTRY(userpassword)) == 0)) {
@@ -396,6 +410,7 @@ void on_process_end (GPid thepid, gint status, gpointer data) {
 		gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "lilo"), TRUE);
 		gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "format_home"), TRUE);
 		gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "filesystem"), TRUE);
+		gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "usbfilesystem"), TRUE);
 		gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "core"), TRUE);
 		gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "basic"), TRUE);
 		gtk_widget_set_sensitive ((GtkWidget *) gtk_builder_get_object(widgetstree, "full"), TRUE);

@@ -59,6 +59,20 @@
       </row>
     </data>
   </object>
+  <object class="GtkListStore" id="liststore3">
+    <columns>
+      <!-- column-name Type -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">vfat</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ext3</col>
+      </row>
+    </data>
+  </object>
   <object class="GtkListStore" id="model1">
     <columns>
       <!-- column-name gchararray -->
@@ -277,6 +291,7 @@ to backup important data before starting this procedure.</property>
                       <object class="GtkLabel" id="label1">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">choose the usb device to copy the live system (e.g. /dev/sdb, /dev/sdc etc)</property>
                         <property name="label" translatable="yes">Copy location:</property>
                       </object>
                       <packing>
@@ -289,6 +304,7 @@ to backup important data before starting this procedure.</property>
                       <object class="GtkComboBox" id="copydevices">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">choose the usb device to copy the live system (e.g. /dev/sdb, /dev/sdc etc)</property>
                         <property name="model">model1</property>
                         <child>
                           <object class="GtkCellRendererText" id="renderer1"/>
@@ -354,6 +370,50 @@ to backup important data before starting this procedure.</property>
                     <property name="fill">False</property>
                     <property name="pack_type">end</property>
                     <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkHBox" id="hbox10">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkLabel" id="label19">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">Choose the filesystem type to format usb.</property>
+                        <property name="label" translatable="yes">Filesystem Type:</property>
+                      </object>
+                      <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkComboBox" id="usbfilesystem">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">Choose the filesystem type to format usb.</property>
+                        <property name="model">liststore3</property>
+                        <property name="active">0</property>
+                        <child>
+                          <object class="GtkCellRendererText" id="cellrenderertext4"/>
+                          <attributes>
+                            <attribute name="text">0</attribute>
+                          </attributes>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">False</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
               </object>
@@ -441,6 +501,7 @@ to backup important data before starting this procedure.</property>
                       <object class="GtkLabel" id="label6">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">choose the Linux partition to hold the main directory tree.</property>
                         <property name="label" translatable="yes">Install location:</property>
                       </object>
                     </child>
@@ -448,6 +509,7 @@ to backup important data before starting this procedure.</property>
                       <object class="GtkLabel" id="label18">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">Choose the filesystem type to format partition(s).</property>
                         <property name="label" translatable="yes">Filesystem Type:</property>
                       </object>
                       <packing>
@@ -515,7 +577,6 @@ Otherwise leave it empty.</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
                         <property name="tooltip_text" translatable="yes">check this if you want to format /home partition</property>
-                        <property name="active">True</property>
                         <property name="draw_indicator">True</property>
                       </object>
                       <packing>
@@ -782,6 +843,9 @@ of upper and lower case letters, numbers, and even symbols
               </packing>
             </child>
             <child>
+              <placeholder/>
+            </child>
+            <child>
               <object class="GtkEntry" id="userpassword1">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
@@ -804,6 +868,30 @@ a confirmation of your choice.</property>
               </packing>
             </child>
             <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
               <object class="GtkCheckButton" id="checkbutton_user">
                 <property name="label" translatable="yes">visible</property>
                 <property name="visible">True</property>
@@ -821,6 +909,33 @@ you are typing.</property>
                 <property name="top_attach">2</property>
                 <property name="bottom_attach">3</property>
               </packing>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
             </child>
             <child>
               <placeholder/>
@@ -1024,8 +1139,8 @@ always following the "one application per task" rationale. </property>
     <property name="website_label" translatable="yes">http://slackware-live.tuxfamily.org</property>
     <property name="license" translatable="yes">CeCILL &lt;http://www.cecill.info/licences.fr.html&gt;</property>
     <property name="authors">Frank ENDRES &lt;frankendres@tuxfamily.org&gt;
-Dimitris Tzemos &lt;djemos@slackel.gr&gt;</property>
-    <property name="translator_credits" translatable="yes">Dimitris Tzemos &lt;djemos@slackel.gr&gt; (greek)</property>
+Dimitris Tzemos &lt;dijemos@gmail.com&gt;</property>
+    <property name="translator_credits" translatable="yes">Dimitris Tzemos &lt;dijemos@gmail.com&gt; (greek)</property>
     <signal name="delete-event" handler="gtk_widget_hide" swapped="no"/>
     <signal name="delete-event" handler="gtk_true" swapped="no"/>
     <signal name="response" handler="gtk_widget_hide" swapped="no"/>
