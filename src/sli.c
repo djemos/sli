@@ -1,10 +1,10 @@
-/*  - added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs) by djemos <dijemos@gmail.com>
+/*  - added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs) by [Dimitris Tzemos <dijemos@gmail.com>]
  	- display a progress bar instead of (non user friendly) log
- 	- added support for setting /home user directory on a different partition 
-	- added support for creating a user name and user password on installation system
- 	- choose gub or (e)Lilo boot loaders
- 	- added partition manager connectivity in gui
- 	- added support for core, basic, full mode installation
+ 	- added support for setting /home user directory on a different partition by [Dimitris Tzemos <dijemos@gmail.com>]
+	- added support for creating a user name and user password on installation system by [Dimitris Tzemos <dijemos@gmail.com>]
+ 	- choose gub or (e)Lilo boot loaders by [Dimitris Tzemos <dijemos@gmail.com>]
+ 	- added partition manager connectivity in gui by [Dimitris Tzemos <dijemos@gmail.com>]
+ 	- added support for core, basic, full mode installation by [Dimitris Tzemos <dijemos@gmail.com>]
  	*/
  	
 #include <gtk/gtk.h>
