@@ -1,4 +1,4 @@
-/*  - added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs)
+/*  - added support to format partitions using different filesystems (btrfs,ext2,ext3,ext4,reiserfs,jfs,xfs) by djemos <dijemos@gmail.com>
  	- display a progress bar instead of (non user friendly) log
  	- added support for setting /home user directory on a different partition 
 	- added support for creating a user name and user password on installation system
