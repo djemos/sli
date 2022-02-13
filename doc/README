@@ -1,5 +1,7 @@
 SLI (Slackel-Live installer) is a GUI to install or copy the live system (based on GTK+2).
 
+This is SLI (Salix-Live installer) GUI version for salix changed a bit because there is no root in salix.
+
 Slackware-live is a dependency for SLI.
 
 The SLKBUILD source package and binary can be found on 
@@ -17,3 +19,12 @@ git clone https://github.com/djemos/sli.git
 3) sh maketxz.sh
 4) Install the package
 sudo spkg sli-1.2.5-x86_64-1dj.txz or sudo installpkg sli-1.2.5-x86_64-1dj.txz
+
+Copyright (C) 2014-2022 Dimitris Tzemos <dijemos@gmail.com>
+This program is free software: you can redistribute it and/or modify it under the terms 
+of the GNU General Public License as published by the Free Software Foundation, 
+either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty 
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License at <http://www.gnu.org/licenses/> for more details.
