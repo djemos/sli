@@ -17,15 +17,10 @@ RLZ=1dj
 	mkdir install
 
 cat <<EOF > install/slack-desc
-sli: "Slackware Live (live DVD/USB/NFS build and install tool)"
-sli: "It is written for Slackware / Slackware64 / Slackware-ARM Linux:"
-sli: "support GPT and legacy MBR partitionned disks, UEFI and CSM "
-sli: "(legacy / BIOS) booting, contains all the necessary to convert an"
-sli: "installed system to a live system and vice-versa;"
-sli: "it doesn’t need any kernel recompile, but it support seamlessly"
-sli: "using SquashFS and OverlayFS; no changes are needed on the system"
-sli: "to make live; the live system boots like an installed one"
-sli: "(100% compatible with stock Slackware); support persistent changes"
+sli: Salix Live Installer (gui application for installing live system)"
+sli: "It is  written for Slackel Linux:"
+sli: "support GPT and legacy MBR partitionned disks, UEFI and CSM"
+sli: "(legacy / BIOS) booting"
 EOF
 
 	/sbin/makepkg -l y -c n ../sli-$VER-$ARCH-$RLZ.txz
