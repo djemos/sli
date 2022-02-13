@@ -1,5 +1,21 @@
-SLI (Salix-Live installer) is a GUI to install or copy the live system (based on GTK+2).
+SLI (Slackel-Live installer) is a GUI to install or copy the live system (based on GTK+2).
+
+This is SLI (Salix-Live installer) GUI version for salix changed a bit because there is no root in salix.
 
 Slackware-live is a dependency for SLI.
 
+The SLKBUILD source package and binary can be found on 
 The SLKBUILD source package can be found on http://people.salixos.org/djemos/salix/sli/1.2.5/
+To build the package fakeroor slkbuild -X
+To install the package sudo spkg sli-1.2.5-x86_64-1dj.txz or sudo installpkg sli-1.2.5-x86_64-1dj.txz
+
+If you want to build from the source in hrere in git:
+SLI use the CMake construction system. So, cmake has to be installed if it is not ( sudo slapt-get -u && sudo slapt-get -i cmake)
+
+The installation procedure is:
+1) download the sources
+git clone https://github.com/djemos/sli.git
+2) cd sli
+3) sh maketxz.sh
+4) Install the package
+sudo spkg sli-1.2.5-x86_64-1dj.txz or sudo installpkg sli-1.2.5-x86_64-1dj.txz
