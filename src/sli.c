@@ -1,5 +1,5 @@
 /*
-SLI (Salix-Live installer).
+SLI (Salix-Live installer) GUI version for salix.
 Copyright (C) 2020 Dimitris Tzemos <dijemos@gmail.com>
 This program is free software: you can redistribute it and/or modify it under the terms 
 of the GNU General Public License as published by the Free Software Foundation, 
