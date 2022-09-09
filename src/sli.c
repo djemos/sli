@@ -638,10 +638,10 @@ void on_keyboard_clicked (GtkWidget *widget, gpointer user_data) {
 	system("rm currentkeymap");          
 }
 
-void readfile(gchar registered_keymaplist[131][30]){
+void readfile(gchar registered_keymaplist[133][30]){
 	static const char filename[] = "/usr/share/salixtools/keymaps";
 	FILE *file = fopen ( filename, "r" );
-	char dest1[133][30];
+	char dest1[135][30];
 	int i,ii=0,i2=0;
 	if ( file != NULL )
 	{ 
@@ -664,10 +664,10 @@ void readfile(gchar registered_keymaplist[131][30]){
 
 
 int is_registered_keymap(char *keymap) {
-	char registered_keymaplist[131][30];
+	char registered_keymaplist[133][30];
 	int i,found=0;
 	readfile(registered_keymaplist);
-	for (i=0;i<131;i++) {
+	for (i=0;i<133;i++) {
 		 if (strcmp(keymap,registered_keymaplist[i])==0) {
 							found=1;return found;
 							}
@@ -1304,6 +1304,14 @@ void on_install_btn_clicked (GtkWidget *widget, gpointer user_data) {
 	gtk_tree_model_get((GtkTreeModel *) list, &iter, 0, &usbfstype, -1);
 	
 	if  (strcmp(gtk_entry_get_text (GTK_ENTRY(userpassword)),gtk_entry_get_text (GTK_ENTRY(userpassword1)))!=0 ) {
+				dialog = (GtkWidget *) gtk_builder_get_object(widgetstree, "dialoguserpass");
+				gtk_widget_show(dialog);				
+		   }
+	else if (strstr(gtk_entry_get_text (GTK_ENTRY(userpassword)),gtk_entry_get_text (GTK_ENTRY(username)))!=0) {
+			   dialog = (GtkWidget *) gtk_builder_get_object(widgetstree, "dialoguserpass");
+			   gtk_widget_show(dialog);				
+		   }
+	else if (strlen(gtk_entry_get_text (GTK_ENTRY(userpassword)))<6) {
 				dialog = (GtkWidget *) gtk_builder_get_object(widgetstree, "dialoguserpass");
 				gtk_widget_show(dialog);				
 		   }
