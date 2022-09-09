@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-11 16:41+0200\n"
+"POT-Creation-Date: 2022-09-07 22:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,7 +245,7 @@ msgstr ""
 msgid "Please set the time, date and time zone:"
 msgstr ""
 
-#: src/sli.ui:1403 src/sli.ui:3100
+#: src/sli.ui:1403 src/sli.ui:3125
 msgid "Language"
 msgstr ""
 
@@ -286,7 +286,7 @@ msgid ""
 "Choose a password or passphrase to be coupled with your\n"
 "login name. Your password or passprase should include a mix\n"
 "of upper and lower case letters, numbers, and even symbols\n"
-"(such as the @, !, and &)"
+"(such as the @, !, and &) and length at least 6 characters."
 msgstr ""
 
 #: src/sli.ui:1574
@@ -295,25 +295,25 @@ msgid ""
 "a confirmation of your choice."
 msgstr ""
 
-#: src/sli.ui:1602
+#: src/sli.ui:1614
 msgid "visible"
 msgstr ""
 
-#: src/sli.ui:1607
+#: src/sli.ui:1619
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
 msgstr ""
 
-#: src/sli.ui:1669
+#: src/sli.ui:1693
 msgid "Choose installation mode"
 msgstr ""
 
-#: src/sli.ui:1694
+#: src/sli.ui:1718
 msgid "core installation"
 msgstr ""
 
-#: src/sli.ui:1699
+#: src/sli.ui:1723
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
@@ -323,11 +323,11 @@ msgid ""
 "file server etc. "
 msgstr ""
 
-#: src/sli.ui:1717
+#: src/sli.ui:1741
 msgid "basic installation"
 msgstr ""
 
-#: src/sli.ui:1722
+#: src/sli.ui:1746
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
@@ -337,11 +337,11 @@ msgid ""
 "choice of applications. "
 msgstr ""
 
-#: src/sli.ui:1740
+#: src/sli.ui:1764
 msgid "full installation"
 msgstr ""
 
-#: src/sli.ui:1745
+#: src/sli.ui:1769
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
@@ -350,72 +350,75 @@ msgid ""
 "always following the \"one application per task\" rationale. "
 msgstr ""
 
-#: src/sli.ui:1821
+#: src/sli.ui:1845
 msgid "About"
 msgstr ""
 
-#: src/sli.ui:2508
+#: src/sli.ui:2532
 msgid "translator-credits"
 msgstr ""
 
-#: src/sli.ui:2539
+#: src/sli.ui:2563
 msgid ""
 "Cannot install Grub boot loader on an xfs filesystem. System will not "
 "boot. \n"
 "Choose (e)Lilo instead. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:2580
+#: src/sli.ui:2604
 msgid ""
 "Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:2616 src/sli.ui:2663
+#: src/sli.ui:2640 src/sli.ui:2687
 msgid "sli"
 msgstr ""
 
-#: src/sli.ui:2626
+#: src/sli.ui:2650
 msgid "Error encountered."
 msgstr ""
 
-#: src/sli.ui:2672
+#: src/sli.ui:2696
 msgid "Installation completed."
 msgstr ""
 
-#: src/sli.ui:2716
-msgid "Your two user password entries do not match. Please verify and correct."
+#: src/sli.ui:2740
+msgid ""
+"Your two user password entries do not match or The password contains the "
+"user name in some form\n"
+"or password length is less than 6 characters. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:2759
+#: src/sli.ui:2784
 msgid ""
 "user name and user password entries \n"
 "cannot be emtpy.\n"
-"root password and user password should have at least 5 characters\n"
+"root password and user password should have at least 6 characters\n"
 "\n"
 "Please verify and correct.\n"
 msgstr ""
 
-#: src/sli.ui:2836
+#: src/sli.ui:2861
 msgid "Please select your preferred keyboard type and map."
 msgstr ""
 
-#: src/sli.ui:2873
+#: src/sli.ui:2898
 msgid "keyboard type"
 msgstr ""
 
-#: src/sli.ui:2908
+#: src/sli.ui:2933
 msgid "keyboard map"
 msgstr ""
 
-#: src/sli.ui:3064
+#: src/sli.ui:3089
 msgid "Please select a default system locale."
 msgstr ""
 
-#: src/sli.ui:3112
+#: src/sli.ui:3137
 msgid "Locale"
 msgstr ""
 
-#: src/sli.ui:3144
+#: src/sli.ui:3169
 msgid "Error: system is not live."
 msgstr ""
 
