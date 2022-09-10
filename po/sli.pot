@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-07 22:45+0300\n"
+"POT-Creation-Date: 2022-09-10 23:30+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,7 +126,7 @@ msgid "Salix Startup Guide"
 msgstr ""
 
 #: src/sli.ui:774
-msgid " Read the StartUp Guide to help you installing Salix."
+msgid "Read the StartUp Guide to help you installing Salix."
 msgstr ""
 
 #: src/sli.ui:775
@@ -245,7 +245,7 @@ msgstr ""
 msgid "Please set the time, date and time zone:"
 msgstr ""
 
-#: src/sli.ui:1403 src/sli.ui:3125
+#: src/sli.ui:1403 src/sli.ui:3137
 msgid "Language"
 msgstr ""
 
@@ -278,7 +278,7 @@ msgstr ""
 #: src/sli.ui:1528
 msgid ""
 "Here you must define your login name which should only include\n"
-"alphanumerical characters with no space or upper case letters. "
+"alphanumerical characters with no space or upper case letters."
 msgstr ""
 
 #: src/sli.ui:1548
@@ -295,101 +295,101 @@ msgid ""
 "a confirmation of your choice."
 msgstr ""
 
-#: src/sli.ui:1614
+#: src/sli.ui:1620
 msgid "visible"
 msgstr ""
 
-#: src/sli.ui:1619
+#: src/sli.ui:1625
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
 msgstr ""
 
-#: src/sli.ui:1693
+#: src/sli.ui:1705
 msgid "Choose installation mode"
 msgstr ""
 
-#: src/sli.ui:1718
+#: src/sli.ui:1730
 msgid "core installation"
 msgstr ""
 
-#: src/sli.ui:1723
+#: src/sli.ui:1735
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
 "included. A graphical environment is not provided. This is ideal \n"
 "if you are an experienced user and want to customize your \n"
 "installation for any specific purpose, such as a web server.\n"
-"file server etc. "
+"file server etc."
 msgstr ""
 
-#: src/sli.ui:1741
+#: src/sli.ui:1753
 msgid "basic installation"
 msgstr ""
 
-#: src/sli.ui:1746
+#: src/sli.ui:1758
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
 "extra applications installed on top, such as a web browser and\n"
 "the gslapt package manager. Ideal for advanced users that \n"
 "would like to install a lightweight system and add their own\n"
-"choice of applications. "
+"choice of applications."
 msgstr ""
 
-#: src/sli.ui:1764
+#: src/sli.ui:1776
 msgid "full installation"
 msgstr ""
 
-#: src/sli.ui:1769
+#: src/sli.ui:1781
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
 "a complete desktop environment\n"
 "and a complete selection of matching applications,\n"
-"always following the \"one application per task\" rationale. "
+"always following the \"one application per task\" rationale."
 msgstr ""
 
-#: src/sli.ui:1845
+#: src/sli.ui:1857
 msgid "About"
 msgstr ""
 
-#: src/sli.ui:2532
+#: src/sli.ui:2544
 msgid "translator-credits"
 msgstr ""
 
-#: src/sli.ui:2563
+#: src/sli.ui:2575
 msgid ""
 "Cannot install Grub boot loader on an xfs filesystem. System will not "
 "boot. \n"
 "Choose (e)Lilo instead. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:2604
+#: src/sli.ui:2616
 msgid ""
 "Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:2640 src/sli.ui:2687
+#: src/sli.ui:2652 src/sli.ui:2699
 msgid "sli"
 msgstr ""
 
-#: src/sli.ui:2650
+#: src/sli.ui:2662
 msgid "Error encountered."
 msgstr ""
 
-#: src/sli.ui:2696
+#: src/sli.ui:2708
 msgid "Installation completed."
 msgstr ""
 
-#: src/sli.ui:2740
+#: src/sli.ui:2752
 msgid ""
 "Your two user password entries do not match or The password contains the "
 "user name in some form\n"
 "or password length is less than 6 characters. Please verify and correct."
 msgstr ""
 
-#: src/sli.ui:2784
+#: src/sli.ui:2796
 msgid ""
 "user name and user password entries \n"
 "cannot be emtpy.\n"
@@ -398,27 +398,27 @@ msgid ""
 "Please verify and correct.\n"
 msgstr ""
 
-#: src/sli.ui:2861
+#: src/sli.ui:2873
 msgid "Please select your preferred keyboard type and map."
 msgstr ""
 
-#: src/sli.ui:2898
+#: src/sli.ui:2910
 msgid "keyboard type"
 msgstr ""
 
-#: src/sli.ui:2933
+#: src/sli.ui:2945
 msgid "keyboard map"
 msgstr ""
 
-#: src/sli.ui:3089
+#: src/sli.ui:3101
 msgid "Please select a default system locale."
 msgstr ""
 
-#: src/sli.ui:3137
+#: src/sli.ui:3149
 msgid "Locale"
 msgstr ""
 
-#: src/sli.ui:3169
+#: src/sli.ui:3181
 msgid "Error: system is not live."
 msgstr ""
 
