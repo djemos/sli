@@ -38,6 +38,11 @@
     <property name="can_focus">False</property>
     <property name="icon_name">time</property>
   </object>
+  <object class="GtkImage" id="image13">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-quit</property>
+  </object>
   <object class="GtkImage" id="image3">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
@@ -721,11 +726,11 @@
                     </child>
                     <child>
                       <object class="GtkImageMenuItem" id="quit">
-                        <property name="label">gtk-quit</property>
+                        <property name="label" translatable="yes">Quit</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
+                        <property name="image">image13</property>
+                        <property name="use_stock">False</property>
                         <signal name="activate" handler="on_quit_activate" swapped="no"/>
                       </object>
                     </child>
@@ -771,7 +776,7 @@
                       <object class="GtkMenuItem" id="Startup_Guide">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="tooltip_text" translatable="yes"> Read the StartUp Guide to help you installing Salix.</property>
+                        <property name="tooltip_text" translatable="yes">Read the StartUp Guide to help you installing Salix.</property>
                         <property name="label" translatable="yes">Startup_Guide</property>
                         <property name="use_underline">True</property>
                         <signal name="activate" handler="on_Startup_Guide_activate" swapped="no"/>
@@ -965,8 +970,7 @@ to backup important data before starting this procedure.</property>
                     <child>
                       <object class="GtkHBox" id="hbox3">
                         <property name="visible">True</property>
-                        <property name="sensitive">False</property>
-                        <property name="can_focus">True</property>
+                        <property name="can_focus">False</property>
                         <property name="receives_default">True</property>
                         <child>
                           <object class="GtkImage" id="image1">
@@ -1468,7 +1472,7 @@ Otherwise leave it empty.</property>
                   <object class="GtkLabel" id="label2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Define login name, choose a password to be coupled with your
+                    <property name="label" translatable="yes">Define a login name, choose a password to be coupled with your
 login name.</property>
                   </object>
                   <packing>
@@ -1526,7 +1530,7 @@ login name.</property>
                 <property name="can_focus">True</property>
                 <property name="has_tooltip">True</property>
                 <property name="tooltip_text" translatable="yes">Here you must define your login name which should only include
-alphanumerical characters with no space or upper case letters. </property>
+alphanumerical characters with no space or upper case letters.</property>
                 <property name="invisible_char">●</property>
                 <property name="primary_icon_activatable">False</property>
                 <property name="secondary_icon_activatable">False</property>
@@ -1548,7 +1552,7 @@ alphanumerical characters with no space or upper case letters. </property>
                 <property name="tooltip_text" translatable="yes">Choose a password or passphrase to be coupled with your
 login name. Your password or passprase should include a mix
 of upper and lower case letters, numbers, and even symbols
-(such as the @, !, and &amp;)</property>
+(such as the @, !, and &amp;) and length at least 6 characters.</property>
                 <property name="visibility">False</property>
                 <property name="invisible_char">●</property>
                 <property name="primary_icon_activatable">False</property>
@@ -1598,6 +1602,36 @@ a confirmation of your choice.</property>
               <placeholder/>
             </child>
             <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
               <object class="GtkCheckButton" id="checkbutton_user">
                 <property name="label" translatable="yes">visible</property>
                 <property name="visible">True</property>
@@ -1615,6 +1649,36 @@ you are typing.</property>
                 <property name="top_attach">2</property>
                 <property name="bottom_attach">3</property>
               </packing>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
             </child>
             <child>
               <placeholder/>
@@ -1701,7 +1765,7 @@ Only the minimum essentials for a console system to start are
 included. A graphical environment is not provided. This is ideal 
 if you are an experienced user and want to customize your 
 installation for any specific purpose, such as a web server.
-file server etc. </property>
+file server etc.</property>
                     <property name="active">True</property>
                     <property name="draw_indicator">True</property>
                     <property name="group">full</property>
@@ -1724,7 +1788,7 @@ This installs only a basic desktop environment, with very few
 extra applications installed on top, such as a web browser and
 the gslapt package manager. Ideal for advanced users that 
 would like to install a lightweight system and add their own
-choice of applications. </property>
+choice of applications.</property>
                     <property name="active">True</property>
                     <property name="draw_indicator">True</property>
                     <property name="group">full</property>
@@ -1746,7 +1810,7 @@ choice of applications. </property>
 Everything that is included in the iso is installed. That includes 
 a complete desktop environment
 and a complete selection of matching applications,
-always following the "one application per task" rationale. </property>
+always following the "one application per task" rationale.</property>
                     <property name="active">True</property>
                     <property name="draw_indicator">True</property>
                   </object>
@@ -1827,7 +1891,7 @@ always following the "one application per task" rationale. </property>
     <property name="skip_taskbar_hint">True</property>
     <property name="transient_for">mainwindow</property>
     <property name="program_name">Salix live Installer</property>
-    <property name="copyright">Copyright © 2014-2020  Dimitris Tzemos</property>
+    <property name="copyright">Copyright © 2014-2022  Dimitris Tzemos</property>
     <property name="license">         GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -2713,7 +2777,8 @@ Choose (e)Lilo instead. Please verify and correct.</property>
     <property name="skip_taskbar_hint">True</property>
     <property name="transient_for">mainwindow</property>
     <property name="buttons">ok</property>
-    <property name="text" translatable="yes">Your two user password entries do not match. Please verify and correct.</property>
+    <property name="text" translatable="yes">Your two user password entries do not match or The password contains the user name in some form
+or password length is less than 6 characters. Please verify and correct.</property>
     <signal name="delete-event" handler="gtk_widget_hide" swapped="no"/>
     <signal name="delete-event" handler="gtk_true" swapped="no"/>
     <signal name="response" handler="gtk_widget_hide" swapped="no"/>
@@ -2758,7 +2823,7 @@ Choose (e)Lilo instead. Please verify and correct.</property>
     <property name="buttons">ok</property>
     <property name="text" translatable="yes">user name and user password entries 
 cannot be emtpy.
-root password and user password should have at least 5 characters
+root password and user password should have at least 6 characters
 
 Please verify and correct.
 </property>
