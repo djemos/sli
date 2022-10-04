@@ -156,7 +156,7 @@ msgid ""
 "drive is a delicate operation which could lead to data loss\n"
 "if not performed cautiously. It is therefore highly advisable\n"
 "to backup important data before starting this procedure."
-msgstr "Importante!\n\nO Salix precisa, no mínimo, de uma partição swap\ne uma partição Linux para manter a sua estrutura de diretórios principal.\n\nSe ainda não tem essas partições necessárias,\ndeve clicar agora no botão 'Partições'\npara criá-las. Esteja ciente de que particionar uma unidade\nde disco é uma operação delicada que pode levar à perda de dados\nse não for realizada com cuidado. Portanto, é altamente recomendável\nfazer um backup de dados importantes antes de iniciar este procedimento."
+msgstr "Importante!\n\nO Salix precisa, no mínimo, de uma partição swap e uma\npartição Linux para manter a sua estrutura de diretórios.\n\nSe ainda não tiver estas partições necessárias prontas,\ndeve clicar agora no botão 'Partições' para criá-las. Esteja\nciente de que o particionamento de uma unidade de\ndisco é uma operação delicada que pode levar à perda\nde dados se não for realizada com cuidado. Portanto,\né altamente recomendável efetuar uma cópia de segurança\nde dados importantes antes de iniciar este procedimento."
 
 #: src/sli.ui:904
 msgid ""
@@ -190,11 +190,11 @@ msgstr "Instalar o (e)LiLo"
 
 #: src/sli.ui:1092
 msgid "check this if you want to install (e)Lilo boot loader"
-msgstr "marque aqui se você quiser instalar o carregador de inicialização (e)Lilo"
+msgstr "Selecione isso se você quiser instalar o carregador de inicialização (e)Lilo"
 
 #: src/sli.ui:1106
 msgid "choose the Linux partition to hold the main directory tree."
-msgstr "escolha a partição Linux para manter a estrutura de diretório principal."
+msgstr "Escolha a partição Linux para manter a estrutura de diretórios principal"
 
 #: src/sli.ui:1122
 msgid "Install Grub"
@@ -202,7 +202,7 @@ msgstr "Instalar o Grub"
 
 #: src/sli.ui:1126
 msgid "check this if you want to install Grub boot loader"
-msgstr "marque aqui se você quiser instalar o carregador de inicialização Grub"
+msgstr "Selecione isso se você quiser instalar o carregador de inicialização Grub"
 
 #: src/sli.ui:1139
 msgid "Install location:"
@@ -214,21 +214,21 @@ msgstr "Escolha o tipo de sistema de arquivos para formatar a partição(ções)
 
 #: src/sli.ui:1178
 msgid "Home location:"
-msgstr "Localização da Home:"
+msgstr "Localização da /home:"
 
 #: src/sli.ui:1189
 msgid ""
 "If you want to use a home partition to another disk then choose one from here.\n"
 "Otherwise leave it empty."
-msgstr "Se você quiser usar uma partição home em outro disco, escolha uma daqui.\nCaso contrário, deixe em branco."
+msgstr "Se você quiser usar uma partição /home em outro disco, escolha uma daqui.\nCaso contrário, deixe em branco."
 
 #: src/sli.ui:1208
 msgid "Format Ηome"
-msgstr "Formatar a Home"
+msgstr "Formatar a /home"
 
 #: src/sli.ui:1212
 msgid "check this if you want to format /home partition"
-msgstr "marque aqui se você deseja formatar a partição /home"
+msgstr "Selecione isso se você quiser formatar a partição /home"
 
 #: src/sli.ui:1233
 msgid "click here if you want to install system on hard disk"
@@ -270,15 +270,15 @@ msgstr "Selecionar o tipo de teclado pretendido."
 msgid ""
 "Define a login name, choose a password to be coupled with your\n"
 "login name."
-msgstr "Defina o nome de acesso, escolha uma senha para ser associada ao seu\nnome de acesso."
+msgstr "Defina o nome de acesso, escolha uma senha para ser associada\nao seu nome de acesso."
 
 #: src/sli.ui:1510
 msgid "user name"
-msgstr "nome do usuário"
+msgstr "Nome do usuário"
 
 #: src/sli.ui:1521
 msgid "user password"
-msgstr "senha do usuário"
+msgstr "Senha do usuário"
 
 #: src/sli.ui:1533
 msgid ""
@@ -302,13 +302,13 @@ msgstr "Aqui deve digitar novamente a sua senha como\numa confirmação da sua e
 
 #: src/sli.ui:1634
 msgid "visible"
-msgstr "visível"
+msgstr "Exibir"
 
 #: src/sli.ui:1639
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
-msgstr "Marque essa caixa se quiser ver a senha\nque você está a digitar."
+msgstr "Selecione essa caixa se você quiser poder ver a senha\nque você está digitando."
 
 #: src/sli.ui:1728
 msgid "Choose installation mode"
@@ -316,7 +316,7 @@ msgstr "Escolha o modo de instalação"
 
 #: src/sli.ui:1753
 msgid "core installation"
-msgstr "instalação essencial"
+msgstr "Instalação essencial"
 
 #: src/sli.ui:1758
 msgid ""
@@ -330,7 +330,7 @@ msgstr "Instalação essencial:\nApenas os itens essenciais mínimos para inicia
 
 #: src/sli.ui:1776
 msgid "basic installation"
-msgstr "instalação básica"
+msgstr "Instalação básica"
 
 #: src/sli.ui:1781
 msgid ""
@@ -344,7 +344,7 @@ msgstr "Instalação básica:\nIsso instala apenas um ambiente de trabalho bási
 
 #: src/sli.ui:1799
 msgid "full installation"
-msgstr "instalação completa"
+msgstr "Instalação completa"
 
 #: src/sli.ui:1804
 msgid ""
