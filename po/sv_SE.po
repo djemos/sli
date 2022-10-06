@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salix-live-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-11 16:40+0200\n"
+"POT-Creation-Date: 2022-10-03 01:46+0300\n"
 "PO-Revision-Date: 2022-02-11 16:51+0200\n"
 "Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/djemos/salix-live-installer/"
@@ -21,127 +21,132 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0\n"
 
-#: src/sli.ui:133
+#: src/sli.ui:138
 msgid "Keep clock synchronized with internet servers"
 msgstr "Håll klockan synkroniserad med internetservrar"
 
-#: src/sli.ui:159
+#: src/sli.ui:164
 msgid "Synchronize now"
 msgstr "Synkronisera nu"
 
-#: src/sli.ui:188
+#: src/sli.ui:193
 msgid "Time Zone:"
 msgstr "Tidszon:"
 
-#: src/sli.ui:222
+#: src/sli.ui:227
 msgid "Select time zone..."
 msgstr "Välj tidszon..."
 
-#: src/sli.ui:244
+#: src/sli.ui:249
 msgid "Hardware clock is set to Coordinated Universal Time (UTC)"
 msgstr "Hårdvaruklockan är satt till Coordinated Universal Time (UTC)"
 
-#: src/sli.ui:267
+#: src/sli.ui:272
 msgid "Time:"
 msgstr "Tid:"
 
-#: src/sli.ui:280
+#: src/sli.ui:285
 msgid "Date:"
 msgstr "Datum:"
 
-#: src/sli.ui:423
+#: src/sli.ui:428
 msgid "azerty"
 msgstr "azerty"
 
-#: src/sli.ui:426
+#: src/sli.ui:431
 msgid "dvorak"
 msgstr "dvorak"
 
-#: src/sli.ui:429
+#: src/sli.ui:434
 msgid "olpc"
 msgstr "olpc"
 
-#: src/sli.ui:432
+#: src/sli.ui:437
 msgid "qwerty"
 msgstr "qwerty"
 
-#: src/sli.ui:435
+#: src/sli.ui:440
 msgid "qwertz"
 msgstr "qwertz"
 
-#: src/sli.ui:458
+#: src/sli.ui:463
 msgid "btrfs"
 msgstr "btrfs"
 
-#: src/sli.ui:461
+#: src/sli.ui:466
 msgid "ext2"
 msgstr "ext2"
 
-#: src/sli.ui:464 src/sli.ui:490
+#: src/sli.ui:469 src/sli.ui:495
 msgid "ext3"
 msgstr "ext3"
 
-#: src/sli.ui:467
+#: src/sli.ui:472
 msgid "ext4"
 msgstr "ext4"
 
-#: src/sli.ui:470
+#: src/sli.ui:475
 msgid "jfs"
 msgstr "jfs"
 
-#: src/sli.ui:473
+#: src/sli.ui:478
 msgid "reiserfs"
 msgstr "reiserfs"
 
-#: src/sli.ui:476
+#: src/sli.ui:481
 msgid "xfs"
 msgstr "xfs"
 
-#: src/sli.ui:487
+#: src/sli.ui:492
 msgid "vfat"
 msgstr "vfat"
 
-#: src/sli.ui:511
+#: src/sli.ui:516
 msgid "Select time zone"
 msgstr "Välj tidszon"
 
-#: src/sli.ui:534
+#: src/sli.ui:539
 msgid "Please select your time zone:"
 msgstr "Vänligen välj din tidszon:"
 
-#: src/sli.ui:572
+#: src/sli.ui:577
 msgid "General area"
 msgstr "Allmänt"
 
-#: src/sli.ui:607
+#: src/sli.ui:612
 msgid "Location"
 msgstr "Plats"
 
-#: src/sli.ui:710
+#: src/sli.ui:715
 msgid "_File"
 msgstr "_Arkiv"
 
-#: src/sli.ui:740
+#: src/sli.ui:729
+msgid "Quit"
+msgstr ""
+
+#: src/sli.ui:745
 msgid "_Help"
 msgstr "_Hjälp"
 
-#: src/sli.ui:764
+#: src/sli.ui:769
 msgid "Salix Startup Guide"
 msgstr "Salix Startguide"
 
-#: src/sli.ui:774
-msgid " Read the StartUp Guide to help you installing Salix."
+#: src/sli.ui:779
+#, fuzzy
+msgid "Read the StartUp Guide to help you installing Salix."
 msgstr "Läs Startguiden för att hjälpa dig att installera Salix."
 
-#: src/sli.ui:775
+#: src/sli.ui:780
 msgid "Startup_Guide"
 msgstr "Start_guide"
 
-#: src/sli.ui:856
+#: src/sli.ui:861
 msgid "Partitions"
 msgstr "Partitioner"
 
-#: src/sli.ui:860
+#: src/sli.ui:865
 msgid ""
 "Important!\n"
 "\n"
@@ -167,66 +172,66 @@ msgstr ""
 "om den inte utförs försiktigt. Det är därför mycket lämpligt\n"
 "att säkerhetskopiera viktiga data innan du startar denna procedur."
 
-#: src/sli.ui:899
+#: src/sli.ui:904
 msgid ""
 "<i>Warning: copy / installation wipes everything on the selected location.</"
 "i>"
 msgstr ""
 "<i>Varning: kopiera / installation radderar allt på den valda platsen.</i>"
 
-#: src/sli.ui:924
+#: src/sli.ui:929
 msgid "Copy location:"
 msgstr "Kopiera till plats:"
 
-#: src/sli.ui:963
+#: src/sli.ui:968
 msgid "click here if you want to copy system to usb"
 msgstr "klicka här om du vill kopiera systemet till usb"
 
-#: src/sli.ui:987
+#: src/sli.ui:991
 msgid "Copy live system to usb"
 msgstr "Kopiera live-system till usb"
 
-#: src/sli.ui:1013 src/sli.ui:1026
+#: src/sli.ui:1017 src/sli.ui:1030
 msgid "Choose the filesystem type to format usb."
 msgstr "Välj filsystems typ för att formatera usb."
 
-#: src/sli.ui:1014 src/sli.ui:1141
+#: src/sli.ui:1018 src/sli.ui:1145
 msgid "Filesystem Type:"
 msgstr "Filsystemstyp:"
 
-#: src/sli.ui:1083
+#: src/sli.ui:1087
 msgid "Install (e)LiLo"
 msgstr "Installera (e)Lilo"
 
-#: src/sli.ui:1087
+#: src/sli.ui:1091
 msgid "check this if you want to install (e)Lilo boot loader"
 msgstr "markera den här om du vill installera (e)Lilo starthanterare"
 
-#: src/sli.ui:1101
+#: src/sli.ui:1105
 msgid "choose the Linux partition to hold the main directory tree."
 msgstr "välj Linux-partitionen för att hålla huvudkatalogträdet."
 
-#: src/sli.ui:1117
+#: src/sli.ui:1121
 msgid "Install Grub"
 msgstr "Installera Grub"
 
-#: src/sli.ui:1121
+#: src/sli.ui:1125
 msgid "check this if you want to install Grub boot loader"
 msgstr "markera den här om du vill installera Grub starthanterare"
 
-#: src/sli.ui:1134
+#: src/sli.ui:1138
 msgid "Install location:"
 msgstr "Installationsplats:"
 
-#: src/sli.ui:1152
+#: src/sli.ui:1156
 msgid "Choose the filesystem type to format partition(s)."
 msgstr "Välj filsystemstyp för att formatera partition(er)."
 
-#: src/sli.ui:1173
+#: src/sli.ui:1177
 msgid "Home location:"
 msgstr "Home Plats:"
 
-#: src/sli.ui:1184
+#: src/sli.ui:1188
 msgid ""
 "If you want to use a home partition to another disk then choose one from "
 "here.\n"
@@ -235,80 +240,83 @@ msgstr ""
 "Om du vill använda en home-partition på en annan hårddisk välj en härifrån.\n"
 "Annars lämna det tomt."
 
-#: src/sli.ui:1203
+#: src/sli.ui:1207
 msgid "Format Ηome"
 msgstr "Formatera Home"
 
-#: src/sli.ui:1207
+#: src/sli.ui:1211
 msgid "check this if you want to format /home partition"
 msgstr "markera denna om du vill formatera /home partitionen"
 
-#: src/sli.ui:1228
+#: src/sli.ui:1232
 msgid "click here if you want to install system on hard disk"
 msgstr "Klicka här om du vill installera systemet på hårddisk"
 
-#: src/sli.ui:1250
+#: src/sli.ui:1254
 msgid "Install live system"
 msgstr "Installera livesystemet"
 
-#: src/sli.ui:1314
+#: src/sli.ui:1318
 msgid "Actions needed before proceeding with system installation.\n"
 msgstr "Åtgärder krävs innan du fortsätter med installationen av systemet.\n"
 
-#: src/sli.ui:1340
+#: src/sli.ui:1344
 msgid "System clock"
 msgstr "Systemclocka"
 
-#: src/sli.ui:1344
+#: src/sli.ui:1348
 msgid "Please set the time, date and time zone:"
 msgstr "Vänligen ställ in tid, datum och tidszon:"
 
-#: src/sli.ui:1403 src/sli.ui:3100
+#: src/sli.ui:1407 src/sli.ui:3177
 msgid "Language"
 msgstr "Språk"
 
-#: src/sli.ui:1407
+#: src/sli.ui:1411
 msgid "Select a default system locale."
 msgstr "Välj standard systemspråk."
 
-#: src/sli.ui:1431
+#: src/sli.ui:1435
 msgid "keyboard"
 msgstr "Tangentbord"
 
-#: src/sli.ui:1435
+#: src/sli.ui:1439
 msgid "Select your preferred keyboard type."
 msgstr "Välj din föredragna tangentbordstyp."
 
-#: src/sli.ui:1471
+#: src/sli.ui:1475
+#, fuzzy
 msgid ""
-"Define login name, choose a password to be coupled with your\n"
+"Define a login name, choose a password to be coupled with your\n"
 "login name."
 msgstr ""
 "ange inloggningsnamn, välj lösenord som skall vara kopplad\n"
 "med ditt namn."
 
-#: src/sli.ui:1505
+#: src/sli.ui:1509
 msgid "user name"
 msgstr "användarnamn"
 
-#: src/sli.ui:1516
+#: src/sli.ui:1520
 msgid "user password"
 msgstr "användarlösenord"
 
-#: src/sli.ui:1528
+#: src/sli.ui:1532
+#, fuzzy
 msgid ""
 "Here you must define your login name which should only include\n"
-"alphanumerical characters with no space or upper case letters. "
+"alphanumerical characters with no space or upper case letters."
 msgstr ""
 "Här måste du ange ditt inloggningsnamn som bara bör omfatta\n"
 "alfanumeriska tecken utan mellanslag eller stora bokstäver."
 
-#: src/sli.ui:1548
+#: src/sli.ui:1552
+#, fuzzy
 msgid ""
 "Choose a password or passphrase to be coupled with your\n"
 "login name. Your password or passprase should include a mix\n"
 "of upper and lower case letters, numbers, and even symbols\n"
-"(such as the @, !, and &)"
+"(such as the @, !, and &) and length at least 6 characters."
 msgstr ""
 "Välj ett lösenord eller lösenordsfras att sammankopplas med ditt\n"
 "inloggningsnamn. Ditt lösenord eller lösenordsfras bör innehålla en "
@@ -316,7 +324,7 @@ msgstr ""
 "av stora och små bokstäver, siffror, och även symboler\n"
 "(t.ex. @,!, och &)"
 
-#: src/sli.ui:1574
+#: src/sli.ui:1578
 msgid ""
 "Here you must retype your password as\n"
 "a confirmation of your choice."
@@ -324,11 +332,11 @@ msgstr ""
 "Här måste du skriva in ditt lösenord som\n"
 "en bekräftelse på ditt val."
 
-#: src/sli.ui:1602
+#: src/sli.ui:1642
 msgid "visible"
 msgstr "synlig"
 
-#: src/sli.ui:1607
+#: src/sli.ui:1647
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
@@ -336,22 +344,23 @@ msgstr ""
 "Markera den här rutan om du vill kunna se lösenordet\n"
 "du skriver."
 
-#: src/sli.ui:1669
+#: src/sli.ui:1745
 msgid "Choose installation mode"
 msgstr "Välj installationsläge"
 
-#: src/sli.ui:1694
+#: src/sli.ui:1770
 msgid "core installation"
 msgstr "core installation"
 
-#: src/sli.ui:1699
+#: src/sli.ui:1775
+#, fuzzy
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
 "included. A graphical environment is not provided. This is ideal \n"
 "if you are an experienced user and want to customize your \n"
 "installation for any specific purpose, such as a web server.\n"
-"file server etc. "
+"file server etc."
 msgstr ""
 "Core installation:\n"
 "Det minsta du behöver för ett konsol system.\n"
@@ -360,18 +369,19 @@ msgstr ""
 "din installationen för något speciellt ändamål,\n"
 "t.ex. en webbserver, filserver m.m."
 
-#: src/sli.ui:1717
+#: src/sli.ui:1793
 msgid "basic installation"
 msgstr "grundläggande installation"
 
-#: src/sli.ui:1722
+#: src/sli.ui:1798
+#, fuzzy
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
 "extra applications installed on top, such as a web browser and\n"
 "the gslapt package manager. Ideal for advanced users that \n"
 "would like to install a lightweight system and add their own\n"
-"choice of applications. "
+"choice of applications."
 msgstr ""
 "Grundläggande installation:\n"
 "Detta installerar bara ett grundläggande skrivbordsmiljö, med mycket få\n"
@@ -380,17 +390,18 @@ msgstr ""
 "som vill installera ett lättviktigt system och lägga till sina egna\n"
 "val av applikationer."
 
-#: src/sli.ui:1740
+#: src/sli.ui:1816
 msgid "full installation"
 msgstr "fullständig installation"
 
-#: src/sli.ui:1745
+#: src/sli.ui:1821
+#, fuzzy
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
 "a complete desktop environment\n"
 "and a complete selection of matching applications,\n"
-"always following the \"one application per task\" rationale. "
+"always following the \"one application per task\" rationale."
 msgstr ""
 "Fullständig installation:\n"
 "Allt som ingår i ISO installeras. Det innefattar\n"
@@ -398,15 +409,15 @@ msgstr ""
 "och ett komplett utbud av matchande applikationer,\n"
 "alltid efter \"ett program per uppgift\" filosofin."
 
-#: src/sli.ui:1821
+#: src/sli.ui:1897
 msgid "About"
 msgstr "Om"
 
-#: src/sli.ui:2508
+#: src/sli.ui:2584
 msgid "translator-credits"
 msgstr "Ingemar Karlsson <po@ingk.se>"
 
-#: src/sli.ui:2539
+#: src/sli.ui:2615
 msgid ""
 "Cannot install Grub boot loader on an xfs filesystem. System will not "
 "boot. \n"
@@ -416,36 +427,43 @@ msgstr ""
 "inte upp.\n"
 "Välj (e)Lilo istället. Kontrollera och korrigera."
 
-#: src/sli.ui:2580
+#: src/sli.ui:2656
 msgid ""
 "Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
 msgstr ""
 "Kan inte installera både (e)Lilo och Grub starthanterare. Vänligen "
 "kontrollera och rätta."
 
-#: src/sli.ui:2616 src/sli.ui:2663
+#: src/sli.ui:2692 src/sli.ui:2739
 msgid "sli"
 msgstr "sli"
 
-#: src/sli.ui:2626
+#: src/sli.ui:2702
 msgid "Error encountered."
 msgstr "Fel uppstod."
 
-#: src/sli.ui:2672
+#: src/sli.ui:2748
 msgid "Installation completed."
 msgstr "Installation slutförd."
 
-#: src/sli.ui:2716
-msgid "Your two user password entries do not match. Please verify and correct."
+#: src/sli.ui:2792
+#, fuzzy
+msgid ""
+"Your two user password entries do not match or The password contains the "
+"user name in some form\n"
+"or password length is less than 6 characters. Please verify and correct."
 msgstr ""
-"Dina två användar lösenordsangivelser matchar inte. Vänligen kontrollera och "
-"rätta."
+"användarnamn och användar lösenord fält\n"
+"kan inte vara tomma.\n"
+" och användar lösenord ska ha minst 5 tecken\n"
+"Kontrollera och korrigera.\n"
 
-#: src/sli.ui:2759
+#: src/sli.ui:2836
+#, fuzzy
 msgid ""
 "user name and user password entries \n"
 "cannot be emtpy.\n"
-"root password and user password should have at least 5 characters\n"
+"root password and user password should have at least 6 characters\n"
 "\n"
 "Please verify and correct.\n"
 msgstr ""
@@ -454,27 +472,27 @@ msgstr ""
 " och användar lösenord ska ha minst 5 tecken\n"
 "Kontrollera och korrigera.\n"
 
-#: src/sli.ui:2836
+#: src/sli.ui:2913
 msgid "Please select your preferred keyboard type and map."
 msgstr "Välj din föredragna tangentbordstyp och layout."
 
-#: src/sli.ui:2873
+#: src/sli.ui:2950
 msgid "keyboard type"
 msgstr "tangentbordstyp"
 
-#: src/sli.ui:2908
+#: src/sli.ui:2985
 msgid "keyboard map"
 msgstr "tangentbordslayout"
 
-#: src/sli.ui:3064
+#: src/sli.ui:3141
 msgid "Please select a default system locale."
 msgstr "Vänligen välj standard systemspråk."
 
-#: src/sli.ui:3112
+#: src/sli.ui:3189
 msgid "Locale"
 msgstr "Språk"
 
-#: src/sli.ui:3144
+#: src/sli.ui:3221
 msgid "Error: system is not live."
 msgstr "Fel: systemet är inte live."
 
@@ -482,6 +500,12 @@ msgstr "Fel: systemet är inte live."
 #, fuzzy
 msgid "Salix-Live Installation"
 msgstr "Salix-Live Installation"
+
+#~ msgid ""
+#~ "Your two user password entries do not match. Please verify and correct."
+#~ msgstr ""
+#~ "Dina två användar lösenordsangivelser matchar inte. Vänligen kontrollera "
+#~ "och rätta."
 
 #~ msgid ""
 #~ "Your two root password entries do not match. Please verify and correct."
