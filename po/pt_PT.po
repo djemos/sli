@@ -278,7 +278,7 @@ msgstr "Nome do utilizador"
 
 #: src/sli.ui:1520
 msgid "user password"
-msgstr "palavra-passe do utilizador"
+msgstr "Palavra-passe do utilizador"
 
 #: src/sli.ui:1532
 msgid ""
@@ -292,7 +292,7 @@ msgid ""
 "login name. Your password or passprase should include a mix\n"
 "of upper and lower case letters, numbers, and even symbols\n"
 "(such as the @, !, and &) and length at least 6 characters."
-msgstr "Escolha uma palavra-passe ou frase-passe para ser associada\nao seu nome de acesso. A sua palavra-passe ou frase-passe\ndeve incluir uma mistura de letras maiúsculas e minúsculas,\nnúmeros, e até símbolos (tais como o @, !, e &) e ter pelo\nmenos 6 caracteres de comprimento."
+msgstr "Escolha uma palavra-passe ou frase-passe para ser associada\nao seu nome de acesso. A palavra-passe ou frase-passe\ndeve incluir uma mistura de letras maiúsculas e minúsculas,\nnúmeros, e até símbolos (tais como o @, !, e &) e ter pelo\nmenos 6 caracteres de comprimento."
 
 #: src/sli.ui:1578
 msgid ""
