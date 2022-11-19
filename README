@@ -1,4 +1,4 @@
-SLI (Salix-Live installer) is a GUI to install on internal or external SSD disk or USB stick (real installation)
+SLI (Slackel-Live installer) is a GUI to install on internal or external SSD disk or USB stick (real installation)
 or copy the live system on a USB stick (frugal installation).
 It is written in C, Glade and GTK+2.
 Slackware-live is a dependency for SLI.
