@@ -1,7 +1,7 @@
 SLI (Slackel-Live installer) is a GUI to install on internal or external SSD disk or USB stick or copy the live system  on a USB stick (frugal installation) (based on GTK+2).
 It is written in C, glade and gtk.
 Slackware-live is a dependency for SLI.
-This is SLI (Salix-Live installer) GUI version for salix changed a bit because there is no root in salix.
+This is SLI (Salix-Live installer) GUI version for salix changed a bit because there is no root on salix.
 
 The SLKBUILD source package and binary can be found on 
 The SLKBUILD source package can be found on http://people.salixos.org/djemos/salix/sli/1.2.5/
