@@ -591,7 +591,7 @@ void on_keyboard_clicked (GtkWidget *widget, gpointer user_data) {
 	get_keybtype(currentkeybtype);
 	model = gtk_tree_view_get_model(keybtypelistwidget);
 	valid = gtk_tree_model_get_iter_first (model, &iter);
-while (valid)
+	while (valid)
          {
            gchar *keybtype;
            gtk_tree_model_get (model, &iter,
@@ -831,7 +831,7 @@ void on_continentlist_cursor_changed(GtkTreeView       *treeview,
 		column=gtk_tree_view_get_column(locationlistwidget , 0);
 		gtk_tree_view_set_cursor (locationlistwidget , path, column, FALSE);
 		while (valid)
-         {
+		{
 			gchar *klocation;
 			gtk_tree_model_get (model, &iter,
                                0, &klocation,
