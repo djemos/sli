@@ -7,6 +7,7 @@ VER=1.2.5
 ARCH=${ARCH:-x86_64}
 RLZ=1dj
 
+	LDFLAGS='-export-dynamic' \
 	cmake -DCMAKE_INSTALL_PREFIX=/usr .
 		
 	make || return 1
@@ -27,4 +28,4 @@ EOF
 	cd ..
 rm -rf pkg
 md5sum sli-$VER-$ARCH-$RLZ.txz > sli-$VER-$ARCH-$RLZ.md5
-echo -e "atk,bzip2,cairo,cxxlibs|gcc-g++,expat,fontconfig,freetype,gcc,gdk-pixbuf2,glib2,gtk+2,harfbuzz,icu4c,libX11,libXau,libXcomposite,libXcursor,libXdamage,libXdmcp,libXext,libXfixes,libXi,libXinerama,libXrandr,libXrender,libffi,libpng,libxcb,pango,pixman,zlib" > sli-$VER-$ARCH-$RLZ.dep
+echo -e "aaa_libraries|bzip2,aaa_libraries|expat,aaa_libraries|libffi,aaa_libraries|libjpeg-turbo,aaa_libraries|zlib,at-spi2-core,brotli,cairo,dbus,fontconfig,freetype,fribidi,gdk-pixbuf2,glib2,graphite2,gtk+3,harfbuzz,libX11,libXau,libXcomposite,libXcursor,libXdamage,libXdmcp,libXext,libXfixes,libXi,libXinerama,libXrandr,libXrender,libepoxy,libpng,libxcb,libxkbcommon,pango,pcre2,pixman,util-linux,wayland,slackware-live" > sli-$VER-$ARCH-$RLZ.dep" 
