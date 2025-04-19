@@ -1,0 +1,149 @@
+aa_DJ.utf8, Afar language locale for Djibouti (Cadu/Laaqo Dialects).  
+af_ZA.utf8, Afrikaans locale for South Africa  
+an_ES.utf8, Aragonese locale for Spain  
+ar_AE.utf8, Arabic language locale for United Arab Emirates  
+ar_BH.utf8, Arabic language locale for Bahrain  
+ar_DZ.utf8, Arabic language locale for Algeria  
+ar_EG.utf8, Arabic language locale for Egypt  
+ar_IQ.utf8, Arabic language locale for Iraq  
+ar_JO.utf8, Arabic language locale for Jordan  
+ar_KW.utf8, Arabic language locale for Kuwait  
+ar_LB.utf8, Arabic language locale for Lebanon  
+ar_LY.utf8, Arabic language locale for Libyan Arab Jamahiriya  
+ar_MA.utf8, Arabic language locale for Morocco  
+ar_OM.utf8, Arabic language locale for Oman  
+ar_QA.utf8, Arabic language locale for Qatar  
+ar_SA.utf8, Arabic locale for Saudi Arabia  
+ar_SD.utf8, Arabic language locale for Sudan  
+ar_SY.utf8, Arabic language locale for Syrian Arab Republic  
+ar_TN.utf8, Arabic language locale for Tunisia  
+ar_YE.utf8, Arabic language locale for Yemen  
+ast_ES.utf8, Asturian locale for Spain  
+be_BY.utf8, Belarusian locale for Belarus  
+bg_BG.utf8, Bulgarian locale for Bulgaria  
+bhb_IN.utf8, Bhili(devanagari) language locale for India  
+br_FR.utf8, Breton language locale for France  
+bs_BA.utf8, Bosnian language locale for Bosnia and Herzegowina  
+ca_AD.utf8, Catalan locale for Andorra   
+ca_ES.utf8, Catalan locale for Spain  
+ca_FR.utf8, Catalan locale for France   
+ca_IT.utf8, Catalan locale for Italy (L'Alguer)   
+cs_CZ.utf8, Czech locale for the Czech Republic  
+cy_GB.utf8, Welsh language locale for Great Britain  
+da_DK.utf8, Danish locale for Denmark  
+de_AT.utf8, German locale for Austria  
+de_BE.utf8, German locale for Belgium  
+de_CH.utf8, German locale for Switzerland  
+de_DE.utf8, German locale for Germany  
+de_IT.utf8, German language locale for Italy  
+de_LI.utf8, German locale for Liechtenstein  
+de_LU.utf8, German locale for Luxemburg  
+el_CY.utf8, Greek locale for Cyprus  
+el_GR.utf8, Greek locale for Greece  
+en_AU.utf8, English locale for Australia  
+en_BW.utf8, English locale for Botswana  
+en_CA.utf8, English locale for Canada  
+en_DK.utf8, English locale for Denmark  
+en_GB.utf8, English locale for Britain  
+en_HK.utf8, English locale for Hong Kong  
+en_IE.utf8, English locale for Ireland  
+en_NZ.utf8, English locale for New Zealand  
+en_PH.utf8, English language locale for Philippines  
+en_SC.utf8, English locale for the Seychelles  
+en_SG.utf8, English language locale for Singapore  
+en_US.utf8, English locale for the USA  
+en_ZA.utf8, English locale for South Africa  
+en_ZW.utf8, English locale for Zimbabwe  
+es_AR.utf8, Spanish locale for Argentina  
+es_BO.utf8, Spanish locale for Bolivia  
+es_CL.utf8, Spanish locale for Chile  
+es_CO.utf8, Spanish locale for Colombia  
+es_CR.utf8, Spanish locale for Costa Rica  
+es_DO.utf8, Spanish locale for Dominican Republic  
+es_EC.utf8, Spanish locale for Ecuador  
+es_ES.utf8, Spanish locale for Spain  
+es_GT.utf8, Spanish locale for Guatemala  
+es_HN.utf8, Spanish locale for Honduras  
+es_MX.utf8, Spanish locale for Mexico  
+es_NI.utf8, Spanish locale for Nicaragua  
+es_PA.utf8, Spanish locale for Panama  
+es_PE.utf8, Spanish locale for Peru  
+es_PR.utf8, Spanish locale for Puerto Rico  
+es_PY.utf8, Spanish locale for Paraguay  
+es_SV.utf8, Spanish locale for El Salvador  
+es_US.utf8, Spanish locale for the USA  
+es_UY.utf8, Spanish locale for Uruguay  
+es_VE.utf8, Spanish locale for Venezuela  
+et_EE.utf8, Estonian locale for Estonia  
+eu_ES.utf8, Basque locale for Spain  
+fi_FI.utf8, Finnish locale for Finland  
+fo_FO.utf8, Faroese locale for Faroe Islands  
+fr_BE.utf8, French locale for Belgium  
+fr_CA.utf8, French locale for Canada  
+fr_CH.utf8, French locale for Switzerland  
+fr_FR.utf8, French locale for France  
+fr_LU.utf8, French locale for Luxemburg  
+ga_IE.utf8, Irish locale for Ireland  
+gd_GB.utf8, Scots Gaelic language locale for Great Britain  
+gl_ES.utf8, Galician locale for Spain  
+gv_GB.utf8, Manx Gaelic locale for Britain  
+he_IL.utf8, Hebrew locale for Israel  
+hr_HR.utf8, Croatian locale for Croatia  
+hsb_DE.utf8, Upper Sorbian locale for Germany  
+hu_HU.utf8, Hungarian locale for Hungary  
+id_ID.utf8, Indonesian locale for Indonesia  
+is_IS.utf8, Icelandic locale for Iceland  
+it_CH.utf8, Italian locale for Switzerland  
+it_IT.utf8, Italian locale for Italy  
+ja_JP.utf8, Japanese language locale for Japan  
+ka_GE.utf8, Georgian language locale for Georgia  
+kk_KZ.utf8, Kazakh locale for Kazakhstan  
+kl_GL.utf8, Greenlandic locale for Greenland  
+ko_KR.utf8, Korean locale for Republic of Korea  
+ku_TR.utf8, Kurdish (latin) locale for Turkey  
+kw_GB.utf8, Cornish locale for Britain  
+lg_UG.utf8, Luganda locale for Uganda  
+lt_LT.utf8, Lithuanian locale for Lithuania  
+lv_LV.utf8, Latvian locale for Latvia  
+mg_MG.utf8, Malagasy locale for Madagascar  
+mi_NZ.utf8, Maori language locale for New Zealand  
+mk_MK.utf8, Macedonian locale for Macedonia  
+ms_MY.utf8, Malay language locale for Malaysia  
+mt_MT.utf8, Maltese language locale for Malta  
+nb_NO.utf8, Norwegian (Bokmål) locale for Norway  
+nl_BE.utf8, Dutch locale for Belgium  
+nl_NL.utf8, Dutch locale for the Netherlands  
+nn_NO.utf8, Nynorsk language locale for Norway  
+oc_FR.utf8, Occitan Language Locale for France  
+om_KE.utf8, Oromo language locale for Kenya.  
+pl_PL.utf8, Polish locale for Poland  
+pt_BR.utf8, Portuguese locale for Brasil  
+pt_PT.utf8, Portuguese locale for Portugal  
+ro_RO.utf8, Romanian locale for Romania  
+ru_RU.utf8, Russian locale for Russia  
+ru_UA.utf8, Russian locale for Ukraine  
+sk_SK.utf8, Slovak locale for Slovak  
+sl_SI.utf8, Slovenian locale for Slovenia  
+so_DJ.utf8, Somali language locale for Djibouti.  
+so_KE.utf8, Somali language locale for Kenya  
+so_SO.utf8, Somali language locale for Somalia  
+sq_AL.utf8, Albanian language locale for Albania  
+st_ZA.utf8, Sotho locale for South Africa  
+sv_FI.utf8, Swedish locale for Finland  
+sv_SE.utf8, Swedish locale for Sweden  
+tcy_IN.utf8, Tulu language locale for India  
+tg_TJ.utf8, Tajik language locale for Tajikistan  
+th_TH.utf8, Thai locale for Thailand  
+tl_PH.utf8, Tagalog language locale for Philippines  
+tr_CY.utf8, Turkish language locale for Cyprus  
+tr_TR.utf8, Turkish locale for Turkey  
+uk_UA.utf8, Ukrainian Language Locale for Ukraine  
+uz_UZ.utf8, Uzbek (latin) locale for Uzbekistan  
+wa_BE.utf8, Walloon Language Locale for Belgium  
+xh_ZA.utf8, Xhosa locale for South Africa  
+yi_US.utf8, Yiddish Language locale for the USA  
+zh_CN.utf8, Chinese locale for Peoples Republic of China  
+zh_HK.utf8, Chinese language locale for Hong Kong  
+zh_SG.utf8, Chinese language locale for Singapore  
+zh_TW.utf8, Chinese locale for Taiwan R.O.C.  
+zu_ZA.utf8, Zulu locale for South Africa  

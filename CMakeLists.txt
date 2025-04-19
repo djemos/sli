@@ -1,8 +1,11 @@
-cmake_minimum_required(VERSION 3.6)
+#if(NOT DEFINED CMAKE_MINIMUM_REQUIRED_VERSION)
+#  cmake_minimum_required(VERSION 3.7)
+#endif()
+cmake_minimum_required(VERSION 3.7)
 
 set (PROJECT_NAME "sli")
 project (${PROJECT_NAME})
-set (PROJECT_VERSION "1.2.5")
+set (PROJECT_VERSION "1.2.6")
 
 add_subdirectory (po)
 add_subdirectory (src)

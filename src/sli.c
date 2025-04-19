@@ -402,7 +402,9 @@ void on_gparted_clicked (GtkWidget *widget, gpointer user_data) {
 }
 
 void on_Startup_Guide_activate (GtkWidget *widget, gpointer user_data) {
- gtk_show_uri(NULL,"file:///usr/doc/sli-1.2.5/salix_startup_guide.pdf",gtk_get_current_event_time (), NULL);
+	if (g_file_test("/usr/doc/sli-1.2.6/salix_startup_guide.pdf", G_FILE_TEST_EXISTS)) {
+       gtk_show_uri_on_window(NULL,"file:///usr/doc/sli-1.2.6/salix_startup_guide.pdf",gtk_get_current_event_time (), NULL);
+   }
 }
 
 void on_keyboard_button_cancel_clicked(GtkWidget *widget, gpointer user_data) {
