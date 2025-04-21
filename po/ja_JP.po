@@ -8,11 +8,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 01:46+0300\n"
+"POT-Creation-Date: 2025-04-21 21:53+0300\n"
 "PO-Revision-Date: 2022-11-10 16:59+0900\n"
-"Last-Translator: BALLOON | FU-SEN (Keiichi Shiga) <ballooakafusen@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/djemos/salix-live-installer/"
-"language/ja/)\n"
+"Last-Translator: BALLOON | FU-SEN (Keiichi Shiga) "
+"<ballooakafusen@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/djemos/salix-live-"
+"installer/language/ja/)\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,23 +21,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.2\n"
 
-#: src/sli.ui:138
+#: src/sli.ui:74
+msgid "Date and time settings"
+msgstr ""
+
+#: src/sli.ui:140
 msgid "Keep clock synchronized with internet servers"
 msgstr "インターネットサーバーと時計を同期"
 
-#: src/sli.ui:164
+#: src/sli.ui:166
 msgid "Synchronize now"
 msgstr "今すぐ同期"
 
-#: src/sli.ui:193
+#: src/sli.ui:194
 msgid "Time Zone:"
 msgstr "タイムゾーン:"
 
-#: src/sli.ui:227
+#: src/sli.ui:228
 msgid "Select time zone..."
 msgstr "タイムゾーンを選択..."
 
-#: src/sli.ui:249
+#: src/sli.ui:250
 msgid "Hardware clock is set to Coordinated Universal Time (UTC)"
 msgstr "ハードウェアの時計を協定世界時 (UTC) に設定"
 
@@ -44,107 +49,112 @@ msgstr "ハードウェアの時計を協定世界時 (UTC) に設定"
 msgid "Time:"
 msgstr "時間:"
 
-#: src/sli.ui:285
+#: src/sli.ui:283
 msgid "Date:"
 msgstr "日付:"
 
-#: src/sli.ui:428
+#: src/sli.ui:420
 msgid "azerty"
 msgstr "azerty"
 
-#: src/sli.ui:431
+#: src/sli.ui:423
 msgid "dvorak"
 msgstr "dvorak"
 
-#: src/sli.ui:434
+#: src/sli.ui:426
 msgid "olpc"
 msgstr "olpc"
 
-#: src/sli.ui:437
+#: src/sli.ui:429
 msgid "qwerty"
 msgstr "qwerty"
 
-#: src/sli.ui:440
+#: src/sli.ui:432
 msgid "qwertz"
 msgstr "qwertz"
 
-#: src/sli.ui:463
+#: src/sli.ui:455
 msgid "btrfs"
 msgstr "btrfs"
 
-#: src/sli.ui:466
+#: src/sli.ui:458
 msgid "ext2"
 msgstr "ext2"
 
-#: src/sli.ui:469 src/sli.ui:495
+#: src/sli.ui:461 src/sli.ui:487
 msgid "ext3"
 msgstr "ext4"
 
-#: src/sli.ui:472
+#: src/sli.ui:464
 msgid "ext4"
 msgstr "ext4"
 
-#: src/sli.ui:475
+#: src/sli.ui:467
 msgid "jfs"
 msgstr "jfs"
 
-#: src/sli.ui:478
+#: src/sli.ui:470
 msgid "reiserfs"
 msgstr "reiserfs"
 
-#: src/sli.ui:481
+#: src/sli.ui:473
 msgid "xfs"
 msgstr "xfs"
 
-#: src/sli.ui:492
+#: src/sli.ui:484
 msgid "vfat"
 msgstr "vfat"
 
-#: src/sli.ui:516
+#: src/sli.ui:508
 msgid "Select time zone"
 msgstr "タイムゾーンを選択"
 
-#: src/sli.ui:539
+#: src/sli.ui:574
 msgid "Please select your time zone:"
 msgstr "タイムゾーンを選択して下さい:"
 
-#: src/sli.ui:577
+#: src/sli.ui:613
 msgid "General area"
 msgstr "一般地域"
 
-#: src/sli.ui:612
+#: src/sli.ui:649
 msgid "Location"
 msgstr "所在地"
 
-#: src/sli.ui:715
+#: src/sli.ui:696
+#, fuzzy
+msgid "Salix Installation"
+msgstr "Salix-Live インストール"
+
+#: src/sli.ui:716
 msgid "_File"
 msgstr "ファイル (_F) "
 
-#: src/sli.ui:729
+#: src/sli.ui:730
 msgid "Quit"
 msgstr "終了"
 
-#: src/sli.ui:745
+#: src/sli.ui:746
 msgid "_Help"
 msgstr "ヘルプ(_H) "
 
-#: src/sli.ui:769
+#: src/sli.ui:770
 msgid "Salix Startup Guide"
 msgstr "Salix スタートアップガイド"
 
-#: src/sli.ui:779
+#: src/sli.ui:780
 msgid "Read the StartUp Guide to help you installing Salix."
 msgstr "Salix をインストールするためのスタートアップガイドをお読み下さい。"
 
-#: src/sli.ui:780
+#: src/sli.ui:781
 msgid "Startup_Guide"
 msgstr "スタートアップガイド (_G) "
 
-#: src/sli.ui:861
+#: src/sli.ui:862
 msgid "Partitions"
 msgstr "パーティション"
 
-#: src/sli.ui:865
+#: src/sli.ui:866
 msgid ""
 "Important!\n"
 "\n"
@@ -173,136 +183,138 @@ msgstr ""
 "この手順を開始する前に重要なデータを\n"
 "バックアップすることを強くおすすめします。"
 
-#: src/sli.ui:904
+#: src/sli.ui:905
 msgid ""
-"<i>Warning: copy / installation wipes everything on the selected location.</i>"
+"<i>Warning: copy / installation wipes everything on the selected location.</"
+"i>"
 msgstr "<i>警告: コピー・インストールは選択された場所すべてを消去します。</i>"
 
-#: src/sli.ui:929
+#: src/sli.ui:930
 msgid "Copy location:"
 msgstr "コピー場所:"
 
-#: src/sli.ui:968
+#: src/sli.ui:969
 msgid "click here if you want to copy system to usb"
 msgstr "システムを USB へコピーする場合はこちらをクリック"
 
-#: src/sli.ui:991
+#: src/sli.ui:992
 msgid "Copy live system to usb"
 msgstr "ライブシステムを USB へコピー"
 
-#: src/sli.ui:1017 src/sli.ui:1030
+#: src/sli.ui:1018 src/sli.ui:1031
 msgid "Choose the filesystem type to format usb."
 msgstr "USB をフォーマットするファイルシステムの種類を選択します。"
 
-#: src/sli.ui:1018 src/sli.ui:1145
+#: src/sli.ui:1019 src/sli.ui:1146
 msgid "Filesystem Type:"
 msgstr "ファイルシステムの種類:"
 
-#: src/sli.ui:1087
+#: src/sli.ui:1088
 msgid "Install (e)LiLo"
 msgstr "(e)LiLo のインストール"
 
-#: src/sli.ui:1091
+#: src/sli.ui:1092
 msgid "check this if you want to install (e)Lilo boot loader"
 msgstr ""
 "(e)Lilo ブートローダーをインストールする場合は、こちらにチェックを入れて下さ"
 "い。"
 
-#: src/sli.ui:1105
+#: src/sli.ui:1106
 msgid "choose the Linux partition to hold the main directory tree."
-msgstr "メインのディレクトリツリーを保持する Linux パーティションを選択します。"
+msgstr ""
+"メインのディレクトリツリーを保持する Linux パーティションを選択します。"
 
-#: src/sli.ui:1121
+#: src/sli.ui:1122
 msgid "Install Grub"
 msgstr "Grub のインストール"
 
-#: src/sli.ui:1125
+#: src/sli.ui:1126
 msgid "check this if you want to install Grub boot loader"
 msgstr ""
 "Grub ブートローダをインストールする場合は、こちらにチェックを入れて下さい。"
 
-#: src/sli.ui:1138
+#: src/sli.ui:1139
 msgid "Install location:"
 msgstr "インストール場所:"
 
-#: src/sli.ui:1156
+#: src/sli.ui:1157
 msgid "Choose the filesystem type to format partition(s)."
 msgstr "パーティションをフォーマットするファイルシステムの種類を選択します。"
 
-#: src/sli.ui:1177
+#: src/sli.ui:1178
 msgid "Home location:"
 msgstr "ホーム場所:"
 
-#: src/sli.ui:1188
+#: src/sli.ui:1189
 msgid ""
 "If you want to use a home partition to another disk then choose one from "
 "here.\n"
 "Otherwise leave it empty."
 msgstr ""
-"もし、ホームパーティションを他のディスクに使用したい場合は、ここから選んで下さ"
-"い。\n"
+"もし、ホームパーティションを他のディスクに使用したい場合は、ここから選んで下"
+"さい。\n"
 "それ以外の場合は空欄にして下さい。"
 
-#: src/sli.ui:1207
+#: src/sli.ui:1208
 msgid "Format Ηome"
 msgstr "ホームの初期化"
 
-#: src/sli.ui:1211
+#: src/sli.ui:1212
 msgid "check this if you want to format /home partition"
 msgstr "ホームパーティションをフォーマットする場合はこちらをチェックして下さい"
 
-#: src/sli.ui:1232
+#: src/sli.ui:1233
 msgid "click here if you want to install system on hard disk"
 msgstr ""
 "ハードディスクにシステムをインストールする場合は、こちらをクリックして下さい"
 
-#: src/sli.ui:1254
+#: src/sli.ui:1255
 msgid "Install live system"
 msgstr "ライブシステムのインストール"
 
-#: src/sli.ui:1318
+#: src/sli.ui:1319
 msgid "Actions needed before proceeding with system installation.\n"
 msgstr "システムのインストールを行う前に必要な操作です。\n"
 
-#: src/sli.ui:1344
+#: src/sli.ui:1345
 msgid "System clock"
 msgstr "システム時計"
 
-#: src/sli.ui:1348
+#: src/sli.ui:1349
 msgid "Please set the time, date and time zone:"
 msgstr "時刻・日付・タイムゾーンを設定して下さい:"
 
-#: src/sli.ui:1407 src/sli.ui:3177
+#: src/sli.ui:1408 src/sli.ui:3258
 msgid "Language"
 msgstr "言語"
 
-#: src/sli.ui:1411
+#: src/sli.ui:1412
 msgid "Select a default system locale."
 msgstr "デフォルトのシステム言語を選択します。"
 
-#: src/sli.ui:1435
+#: src/sli.ui:1436
 msgid "keyboard"
 msgstr "キーボード"
 
-#: src/sli.ui:1439
+#: src/sli.ui:1440
 msgid "Select your preferred keyboard type."
 msgstr "キーボードの種類を選択します。"
 
-#: src/sli.ui:1475
+#: src/sli.ui:1476
 msgid ""
 "Define a login name, choose a password to be coupled with your\n"
 "login name."
 msgstr "ログイン名を定義し、ログイン名と連動するパスワードを選択します。"
 
-#: src/sli.ui:1509
+#: src/sli.ui:1510
 msgid "user name"
 msgstr "ユーザー名"
 
-#: src/sli.ui:1520
+#: src/sli.ui:1521
 msgid "user password"
 msgstr "パスワード"
 
-#: src/sli.ui:1532
+#: src/sli.ui:1533
 msgid ""
 "Here you must define your login name which should only include\n"
 "alphanumerical characters with no space or upper case letters."
@@ -310,7 +322,7 @@ msgstr ""
 "ここでログイン名を入力する必要があります。\n"
 "英数字でスペースや大文字は使用しないで下さい。"
 
-#: src/sli.ui:1552
+#: src/sli.ui:1551
 msgid ""
 "Choose a password or passphrase to be coupled with your\n"
 "login name. Your password or passprase should include a mix\n"
@@ -322,7 +334,7 @@ msgstr ""
 "大文字・小文字・数字・(記号（@・!・& など）を混在させ、\n"
 "6 文字以上にして下さい。"
 
-#: src/sli.ui:1578
+#: src/sli.ui:1575
 msgid ""
 "Here you must retype your password as\n"
 "a confirmation of your choice."
@@ -330,11 +342,11 @@ msgstr ""
 "ここで確認としてパスワードを\n"
 "再入力する必要があります。"
 
-#: src/sli.ui:1642
+#: src/sli.ui:1672
 msgid "visible"
 msgstr "表示"
 
-#: src/sli.ui:1647
+#: src/sli.ui:1677
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
@@ -342,15 +354,15 @@ msgstr ""
 "入力したパスワードを確認できるようにしたい場合は、\n"
 "このボックスにチェックを入れます。"
 
-#: src/sli.ui:1745
+#: src/sli.ui:1811
 msgid "Choose installation mode"
 msgstr "インストールモードを選択"
 
-#: src/sli.ui:1770
+#: src/sli.ui:1836
 msgid "core installation"
 msgstr "コアインストール"
 
-#: src/sli.ui:1775
+#: src/sli.ui:1841
 msgid ""
 "Core installation:\n"
 "Only the minimum essentials for a console system to start are \n"
@@ -366,11 +378,11 @@ msgstr ""
 "ファイルサーバーなど、特定の目的のために\n"
 "インストールをカスタマイズしたい場合に最適です。"
 
-#: src/sli.ui:1793
+#: src/sli.ui:1859
 msgid "basic installation"
 msgstr "基本インストール"
 
-#: src/sli.ui:1798
+#: src/sli.ui:1864
 msgid ""
 "Basic installation:\n"
 "This installs only a basic desktop environment, with very few \n"
@@ -385,11 +397,11 @@ msgstr ""
 "軽量なシステムをインストールし、独自の\n"
 "アプリケーションを追加したい上級ユーザーに最適です。"
 
-#: src/sli.ui:1816
+#: src/sli.ui:1882
 msgid "full installation"
 msgstr "フルインストール"
 
-#: src/sli.ui:1821
+#: src/sli.ui:1887
 msgid ""
 "Full installation:\n"
 "Everything that is included in the iso is installed. That includes \n"
@@ -403,52 +415,53 @@ msgstr ""
 "アプリケーションの完全なセレクションが含まれます。\n"
 "常に「1 タスク/ 1 アプリケーション」の原則に従います。"
 
-#: src/sli.ui:1897
+#: src/sli.ui:1963
 msgid "About"
 msgstr "sli について"
 
-#: src/sli.ui:2584
+#: src/sli.ui:2650
 msgid "translator-credits"
 msgstr "翻訳者クレジット"
 
-#: src/sli.ui:2615
+#: src/sli.ui:2683
 msgid ""
-"Cannot install Grub boot loader on an xfs filesystem. System will not boot. \n"
+"Cannot install Grub boot loader on an xfs filesystem. System will not "
+"boot. \n"
 "Choose (e)Lilo instead. Please verify and correct."
 msgstr ""
 "xfs ファイルシステムに Grub ブートローダをインストールできません。\n"
 "システムは起動しません。代わりに(e)Lilo を選択するか検証し修正して下さい。"
 
-#: src/sli.ui:2656
+#: src/sli.ui:2725
 msgid ""
 "Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
 msgstr ""
 "(e)Lilo とGrub ブートローダーの両方をインストールすることができません。\n"
 "検証し修正して下さい。"
 
-#: src/sli.ui:2692 src/sli.ui:2739
+#: src/sli.ui:2762 src/sli.ui:2810
 msgid "sli"
 msgstr "sli"
 
-#: src/sli.ui:2702
+#: src/sli.ui:2772
 msgid "Error encountered."
 msgstr "エラーが発生しました。"
 
-#: src/sli.ui:2748
+#: src/sli.ui:2819
 msgid "Installation completed."
 msgstr "インストールが完了しました。"
 
-#: src/sli.ui:2792
+#: src/sli.ui:2864
 msgid ""
-"Your two user password entries do not match or The password contains the user "
-"name in some form\n"
+"Your two user password entries do not match or The password contains the "
+"user name in some form\n"
 "or password length is less than 6 characters. Please verify and correct."
 msgstr ""
 "入力した 2 つのユーザーパスワードが一致しません。\\n\n"
 "またはパスワードにユーザー名が何らかの形で含まれています。\n"
 "またはパスワードの長さが 6 文字未満です。ご確認の上、修正して下さい。"
 
-#: src/sli.ui:2836
+#: src/sli.ui:2909
 msgid ""
 "user name and user password entries \n"
 "cannot be emtpy.\n"
@@ -462,27 +475,37 @@ msgstr ""
 "\n"
 "ご確認の上、修正してください。\n"
 
-#: src/sli.ui:2913
+#: src/sli.ui:2951
+#, fuzzy
+msgid "Keyboard settings"
+msgstr "キーボードの種類"
+
+#: src/sli.ui:3031
 msgid "Please select your preferred keyboard type and map."
 msgstr "キーボードの種類とマップを選択して下さい。"
 
-#: src/sli.ui:2950
+#: src/sli.ui:3069
 msgid "keyboard type"
 msgstr "キーボードの種類"
 
-#: src/sli.ui:2985
+#: src/sli.ui:3105
 msgid "keyboard map"
 msgstr "キーボードマップ"
 
 #: src/sli.ui:3141
-msgid "Please select a default system locale."
-msgstr "デフォルトのシステム言語を選択して下さい。"
-
-#: src/sli.ui:3189
-msgid "Locale"
+#, fuzzy
+msgid "System language"
 msgstr "言語"
 
 #: src/sli.ui:3221
+msgid "Please select a default system locale."
+msgstr "デフォルトのシステム言語を選択して下さい。"
+
+#: src/sli.ui:3270
+msgid "Locale"
+msgstr "言語"
+
+#: src/sli.ui:3302
 msgid "Error: system is not live."
 msgstr "エラー: システムはライブではありません。"
 

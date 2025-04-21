@@ -8,35 +8,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: salix-live-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 01:46+0300\n"
-"PO-Revision-Date: 2020-10-05 21:14+0300\n"
+"POT-Creation-Date: 2025-04-21 21:53+0300\n"
+"PO-Revision-Date: 2025-04-21 21:57+0300\n"
 "Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
-"Language-Team: Hindi (India) (http://www.transifex.com/djemos/salix-live-"
-"installer/language/hi_IN/)\n"
+"Language-Team: Hindi (India) (http://www.transifex.com/djemos/salix-live-installer/"
+"language/hi_IN/)\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 3.5\n"
 
-#: src/sli.ui:138
+#: src/sli.ui:74
+msgid "Date and time settings"
+msgstr ""
+
+#: src/sli.ui:140
 msgid "Keep clock synchronized with internet servers"
 msgstr "घड़ी को इंटरनेट सर्वर से समकालीन रखें"
 
-#: src/sli.ui:164
+#: src/sli.ui:166
 msgid "Synchronize now"
 msgstr "अभी समकालीन करें"
 
-#: src/sli.ui:193
+#: src/sli.ui:194
 msgid "Time Zone:"
 msgstr "समय क्षेत्र :"
 
-#: src/sli.ui:227
+#: src/sli.ui:228
 msgid "Select time zone..."
 msgstr "समय क्षेत्र चुनें..."
 
-#: src/sli.ui:249
+#: src/sli.ui:250
 msgid "Hardware clock is set to Coordinated Universal Time (UTC)"
 msgstr "हार्डवेयर घड़ी समन्वित सर्वत्र समय (UTC) पर सेट है"
 
@@ -44,108 +48,113 @@ msgstr "हार्डवेयर घड़ी समन्वित सर्व
 msgid "Time:"
 msgstr "समय :"
 
-#: src/sli.ui:285
+#: src/sli.ui:283
 msgid "Date:"
 msgstr "दिनांक :"
 
-#: src/sli.ui:428
+#: src/sli.ui:420
 msgid "azerty"
 msgstr "azerty"
 
-#: src/sli.ui:431
+#: src/sli.ui:423
 msgid "dvorak"
 msgstr "dvorak"
 
-#: src/sli.ui:434
+#: src/sli.ui:426
 msgid "olpc"
 msgstr "olpc"
 
-#: src/sli.ui:437
+#: src/sli.ui:429
 msgid "qwerty"
 msgstr "qwerty"
 
-#: src/sli.ui:440
+#: src/sli.ui:432
 msgid "qwertz"
 msgstr "qwertz"
 
-#: src/sli.ui:463
+#: src/sli.ui:455
 msgid "btrfs"
 msgstr "btrfs"
 
-#: src/sli.ui:466
+#: src/sli.ui:458
 msgid "ext2"
 msgstr "ext2"
 
-#: src/sli.ui:469 src/sli.ui:495
+#: src/sli.ui:461 src/sli.ui:487
 msgid "ext3"
 msgstr "ext3"
 
-#: src/sli.ui:472
+#: src/sli.ui:464
 msgid "ext4"
 msgstr "ext4"
 
-#: src/sli.ui:475
+#: src/sli.ui:467
 msgid "jfs"
 msgstr "jfs"
 
-#: src/sli.ui:478
+#: src/sli.ui:470
 msgid "reiserfs"
 msgstr "reiserfs"
 
-#: src/sli.ui:481
+#: src/sli.ui:473
 msgid "xfs"
 msgstr "xfs"
 
-#: src/sli.ui:492
+#: src/sli.ui:484
 msgid "vfat"
 msgstr "vfat"
 
-#: src/sli.ui:516
+#: src/sli.ui:508
 msgid "Select time zone"
 msgstr "समय क्षेत्र चयन"
 
-#: src/sli.ui:539
+#: src/sli.ui:574
 msgid "Please select your time zone:"
 msgstr "कृपया अपना समय क्षेत्र चुनें :"
 
-#: src/sli.ui:577
+#: src/sli.ui:613
 msgid "General area"
 msgstr "सामान्य क्षेत्र"
 
-#: src/sli.ui:612
+#: src/sli.ui:649
 msgid "Location"
 msgstr "फोल्डर :"
 
-#: src/sli.ui:715
+#: src/sli.ui:696
+#, fuzzy
+msgid "Salix Installation"
+msgstr "स्लैकल-लाइव इंस्टॉल"
+
+#: src/sli.ui:716
 msgid "_File"
 msgstr "फाइल (_F)"
 
-#: src/sli.ui:729
+#: src/sli.ui:730
 msgid "Quit"
 msgstr ""
 
-#: src/sli.ui:745
+#: src/sli.ui:746
 msgid "_Help"
 msgstr "सहायता (_H)"
 
-#: src/sli.ui:769
+#: src/sli.ui:770
 msgid "Salix Startup Guide"
 msgstr "स्लैकल आरंभ गाइड"
 
-#: src/sli.ui:779
+#: src/sli.ui:780
 #, fuzzy
 msgid "Read the StartUp Guide to help you installing Salix."
 msgstr "स्लैकल इंस्टॉल करने हेतु स्लैकल आरंभ गाइड पढ़ें।"
 
-#: src/sli.ui:780
+#: src/sli.ui:781
 msgid "Startup_Guide"
 msgstr "आरंभ गाइड (G)"
 
-#: src/sli.ui:861
+#: src/sli.ui:862
 msgid "Partitions"
 msgstr "विभाजन"
 
-#: src/sli.ui:865
+#: src/sli.ui:866
 msgid ""
 "Important!\n"
 "\n"
@@ -170,135 +179,130 @@ msgstr ""
 "पर डाटा नष्ट हो सकता है। अतः हम आपको प्रक्रिया आरंभ\n"
 "पूर्व अहम डेटा बैकअप करने का परामर्श देते हैं।"
 
-#: src/sli.ui:904
-msgid ""
-"<i>Warning: copy / installation wipes everything on the selected location.</"
-"i>"
-msgstr ""
-"<i>चेतावनी : कॉपी/इंस्टॉल प्रक्रिया से चयनित ड्राइव पर पहले से मौजूद डाटा नष्ट हो जाएगा।"
-"</i>"
+#: src/sli.ui:905
+msgid "<i>Warning: copy / installation wipes everything on the selected location.</i>"
+msgstr "<i>चेतावनी : कॉपी/इंस्टॉल प्रक्रिया से चयनित ड्राइव पर पहले से मौजूद डाटा नष्ट हो जाएगा।</i>"
 
-#: src/sli.ui:929
+#: src/sli.ui:930
 msgid "Copy location:"
 msgstr "कॉपी हेतु फोल्डर :"
 
-#: src/sli.ui:968
+#: src/sli.ui:969
 msgid "click here if you want to copy system to usb"
 msgstr "यहाँ क्लिक कर सिस्टम को यूएसबी पर कॉपी करें"
 
-#: src/sli.ui:991
+#: src/sli.ui:992
 msgid "Copy live system to usb"
 msgstr "लाइव सिस्टम को यूएसबी पर कॉपी करें"
 
-#: src/sli.ui:1017 src/sli.ui:1030
+#: src/sli.ui:1018 src/sli.ui:1031
 msgid "Choose the filesystem type to format usb."
 msgstr "यूएसबी फॉर्मेट हेतु फाइल सिस्टम प्रकार चुनें।"
 
-#: src/sli.ui:1018 src/sli.ui:1145
+#: src/sli.ui:1019 src/sli.ui:1146
 msgid "Filesystem Type:"
 msgstr "फाइल सिस्टम प्रकार :"
 
-#: src/sli.ui:1087
+#: src/sli.ui:1088
 msgid "Install (e)LiLo"
 msgstr "(ई)लीलो इंस्टॉल करें "
 
-#: src/sli.ui:1091
+#: src/sli.ui:1092
 msgid "check this if you want to install (e)Lilo boot loader"
 msgstr "इसे चिन्हित कर (ई)लीलो बूट लोड साधन इंस्टॉल करें"
 
-#: src/sli.ui:1105
+#: src/sli.ui:1106
 msgid "choose the Linux partition to hold the main directory tree."
 msgstr "मुख्य डायरेक्टरी संरचना हेतु लिनक्स विभाजन चुनें।"
 
-#: src/sli.ui:1121
+#: src/sli.ui:1122
 msgid "Install Grub"
 msgstr "Grub इंस्टॉल करें"
 
-#: src/sli.ui:1125
+#: src/sli.ui:1126
 msgid "check this if you want to install Grub boot loader"
 msgstr "इसे चिन्हित कर Grub बूट लोड साधन इंस्टॉल करें"
 
-#: src/sli.ui:1138
+#: src/sli.ui:1139
 msgid "Install location:"
 msgstr "इंस्टॉल हेतु फोल्डर :"
 
-#: src/sli.ui:1156
+#: src/sli.ui:1157
 msgid "Choose the filesystem type to format partition(s)."
 msgstr "विभाजन फॉर्मेट हेतु फाइल सिस्टम प्रकार चुनें।"
 
-#: src/sli.ui:1177
+#: src/sli.ui:1178
 msgid "Home location:"
 msgstr "होम हेतु फोल्डर :"
 
-#: src/sli.ui:1188
+#: src/sli.ui:1189
 msgid ""
-"If you want to use a home partition to another disk then choose one from "
-"here.\n"
+"If you want to use a home partition to another disk then choose one from here.\n"
 "Otherwise leave it empty."
 msgstr ""
 "अन्य डिस्क से होम विभाजन चयन करने हेतु यहाँ से चुनें।\n"
 "अन्यथा इसे रिक्त रखें।"
 
-#: src/sli.ui:1207
+#: src/sli.ui:1208
 msgid "Format Ηome"
 msgstr "होम फॉर्मेट करें"
 
-#: src/sli.ui:1211
+#: src/sli.ui:1212
 msgid "check this if you want to format /home partition"
 msgstr "इसे चिन्हित कर /home विभाजन फॉर्मेट करें"
 
-#: src/sli.ui:1232
+#: src/sli.ui:1233
 msgid "click here if you want to install system on hard disk"
 msgstr "यहाँ क्लिक कर सिस्टम को हार्ड डिस्क पर इंस्टॉल करें"
 
-#: src/sli.ui:1254
+#: src/sli.ui:1255
 msgid "Install live system"
 msgstr "लाइव सिस्टम इंस्टॉल करें"
 
-#: src/sli.ui:1318
+#: src/sli.ui:1319
 msgid "Actions needed before proceeding with system installation.\n"
 msgstr "सिस्टम इंस्टॉल प्रक्रिया पूर्व आवश्यक कार्य।\n"
 
-#: src/sli.ui:1344
+#: src/sli.ui:1345
 msgid "System clock"
 msgstr "सिस्टम घड़ी"
 
-#: src/sli.ui:1348
+#: src/sli.ui:1349
 msgid "Please set the time, date and time zone:"
 msgstr "कृपया समय, दिनांक व समय क्षेत्र सेट करें :"
 
-#: src/sli.ui:1407 src/sli.ui:3177
+#: src/sli.ui:1408 src/sli.ui:3258
 msgid "Language"
 msgstr "भाषा"
 
-#: src/sli.ui:1411
+#: src/sli.ui:1412
 msgid "Select a default system locale."
 msgstr "सिस्टम हेतु डिफ़ॉल्ट स्थानिकी चुनें।"
 
-#: src/sli.ui:1435
+#: src/sli.ui:1436
 msgid "keyboard"
 msgstr "कुंजीपटल"
 
-#: src/sli.ui:1439
+#: src/sli.ui:1440
 msgid "Select your preferred keyboard type."
 msgstr "इच्छित कुंजीपटल प्रकार चुनें।"
 
-#: src/sli.ui:1475
+#: src/sli.ui:1476
 #, fuzzy
 msgid ""
 "Define a login name, choose a password to be coupled with your\n"
 "login name."
 msgstr "रुट कूटशब्द सेट करें, लॉगिन नाम दर्ज करें व लॉगिन नाम हेतु कूटशब्द चुनें।"
 
-#: src/sli.ui:1509
+#: src/sli.ui:1510
 msgid "user name"
 msgstr "उपयोक्ता नाम"
 
-#: src/sli.ui:1520
+#: src/sli.ui:1521
 msgid "user password"
 msgstr "उपयोक्ता कूटशब्द"
 
-#: src/sli.ui:1532
+#: src/sli.ui:1533
 #, fuzzy
 msgid ""
 "Here you must define your login name which should only include\n"
@@ -307,7 +311,7 @@ msgstr ""
 "लॉगिन नाम पूर्णतया अक्षरांकीय युक्त हो व इसमें रिक्त स्थान या\n"
 "अपरकेस अक्षर नहीं होने चाहिए।"
 
-#: src/sli.ui:1552
+#: src/sli.ui:1551
 #, fuzzy
 msgid ""
 "Choose a password or passphrase to be coupled with your\n"
@@ -318,17 +322,17 @@ msgstr ""
 "अपने लॉगिन नाम हेतु कूटशब्द चुनें। कूटशब्द में अपरकेस व लोअरकेस\n"
 "अक्षर, अंक व चिन्ह (जैसे @, ! व &) का मिश्रण होना आवश्यक है ।"
 
-#: src/sli.ui:1578
+#: src/sli.ui:1575
 msgid ""
 "Here you must retype your password as\n"
 "a confirmation of your choice."
 msgstr "कृपया पुष्टिकरण हेतु कूटशब्द पुनः दर्ज करें।"
 
-#: src/sli.ui:1642
+#: src/sli.ui:1672
 msgid "visible"
 msgstr "दृश्यमान"
 
-#: src/sli.ui:1647
+#: src/sli.ui:1677
 msgid ""
 "Check this box if you want to be able to see the password\n"
 "you are typing."
@@ -336,15 +340,15 @@ msgstr ""
 "यदि आप दर्ज किया गया कूटशब्द दृश्यमान\n"
 "रखना चाहते हैं तो इसे चिन्हित करें।"
 
-#: src/sli.ui:1745
+#: src/sli.ui:1811
 msgid "Choose installation mode"
 msgstr "इंस्टॉल मोड चयन"
 
-#: src/sli.ui:1770
+#: src/sli.ui:1836
 msgid "core installation"
 msgstr "कोर इंस्टॉल"
 
-#: src/sli.ui:1775
+#: src/sli.ui:1841
 #, fuzzy
 msgid ""
 "Core installation:\n"
@@ -359,11 +363,11 @@ msgstr ""
 "इसमें चित्रात्मक वातावरण नहीं होता है। यह अनुभवी उपयोक्ता एवं\n"
 "वेब सर्वर, फाइल सर्वर जैसे विशिष्ट उद्देश्यों हेतु अनुकूलन के लिए उपयुक्त है।"
 
-#: src/sli.ui:1793
+#: src/sli.ui:1859
 msgid "basic installation"
 msgstr "सामान्य इंस्टॉल"
 
-#: src/sli.ui:1798
+#: src/sli.ui:1864
 #, fuzzy
 msgid ""
 "Basic installation:\n"
@@ -379,11 +383,11 @@ msgstr ""
 "पैकेज सम्मिलित नहीं होते हैं। यह एक सरल सिस्टम व स्वयं अनुप्रयोग\n"
 "इंस्टॉल करने के इच्छुक उपयोक्ताओं हेतु उपयुक्त है।"
 
-#: src/sli.ui:1816
+#: src/sli.ui:1882
 msgid "full installation"
 msgstr "पूर्ण इंस्टॉल"
 
-#: src/sli.ui:1821
+#: src/sli.ui:1887
 #, fuzzy
 msgid ""
 "Full installation:\n"
@@ -397,46 +401,43 @@ msgstr ""
 "इसमें एक परिपूर्ण डेस्कटॉप वातावरण व\n"
 "'प्रति कार्य एकल अनुप्रयोग' तर्काधार पर संबंधित अनुप्रयोग होते हैं।"
 
-#: src/sli.ui:1897
+#: src/sli.ui:1963
 msgid "About"
 msgstr "बारे में"
 
-#: src/sli.ui:2584
+#: src/sli.ui:2650
 msgid "translator-credits"
 msgstr "Panwar108 <caspian7pena@gmail.com>"
 
-#: src/sli.ui:2615
+#: src/sli.ui:2683
 msgid ""
-"Cannot install Grub boot loader on an xfs filesystem. System will not "
-"boot. \n"
+"Cannot install Grub boot loader on an xfs filesystem. System will not boot. \n"
 "Choose (e)Lilo instead. Please verify and correct."
 msgstr ""
-"सिस्टम आरंभ विफलता के कारण फाइल सिस्टम पर Grub बूट लोड साधन इंस्टॉल करना संभव नहीं "
-"है।\n"
+"सिस्टम आरंभ विफलता के कारण फाइल सिस्टम पर Grub बूट लोड साधन इंस्टॉल करना संभव नहीं है।\n"
 "इसके स्थान पर (ई)लीलो चुनें। कृपया जाँचकर सुधारें।"
 
-#: src/sli.ui:2656
-msgid ""
-"Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
+#: src/sli.ui:2725
+msgid "Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
 msgstr "दोनों (ई)लीलो व Grub बूट लोड साधन इंस्टॉल करना संभव नहीं है। कृपया जाँचकर सुधारें।"
 
-#: src/sli.ui:2692 src/sli.ui:2739
+#: src/sli.ui:2762 src/sli.ui:2810
 msgid "sli"
 msgstr "sli"
 
-#: src/sli.ui:2702
+#: src/sli.ui:2772
 msgid "Error encountered."
 msgstr "त्रुटि हुई।"
 
-#: src/sli.ui:2748
+#: src/sli.ui:2819
 msgid "Installation completed."
 msgstr "इंस्टॉल प्रक्रिया पूर्ण।"
 
-#: src/sli.ui:2792
+#: src/sli.ui:2864
 #, fuzzy
 msgid ""
-"Your two user password entries do not match or The password contains the "
-"user name in some form\n"
+"Your two user password entries do not match or The password contains the user name in "
+"some form\n"
 "or password length is less than 6 characters. Please verify and correct."
 msgstr ""
 "उपयोक्ता नाम व उपयोक्ता कूटशब्द प्रविष्टियाँ\n"
@@ -445,7 +446,7 @@ msgstr ""
 "\n"
 "कृपया जाँचकर सुधारें।\n"
 
-#: src/sli.ui:2836
+#: src/sli.ui:2909
 #, fuzzy
 msgid ""
 "user name and user password entries \n"
@@ -460,41 +461,48 @@ msgstr ""
 "\n"
 "कृपया जाँचकर सुधारें।\n"
 
-#: src/sli.ui:2913
+#: src/sli.ui:2951
+#, fuzzy
+msgid "Keyboard settings"
+msgstr "कुंजीपटल प्रकार"
+
+#: src/sli.ui:3031
 msgid "Please select your preferred keyboard type and map."
 msgstr "कृपया इच्छित कुंजीपटल प्रकार व अभिन्यास चुनें।"
 
-#: src/sli.ui:2950
+#: src/sli.ui:3069
 msgid "keyboard type"
 msgstr "कुंजीपटल प्रकार"
 
-#: src/sli.ui:2985
+#: src/sli.ui:3105
 msgid "keyboard map"
 msgstr "कुंजीपटल अभिन्यास"
 
 #: src/sli.ui:3141
+#, fuzzy
+msgid "System language"
+msgstr "भाषा"
+
+#: src/sli.ui:3221
 msgid "Please select a default system locale."
 msgstr "कृपया सिस्टम हेतु डिफ़ॉल्ट स्थानिकी चुनें।"
 
-#: src/sli.ui:3189
+#: src/sli.ui:3270
 msgid "Locale"
 msgstr "स्थानिकी"
 
-#: src/sli.ui:3221
+#: src/sli.ui:3302
 msgid "Error: system is not live."
 msgstr "त्रुटि : सिस्टम लाइव नहीं है।"
 
 #: src/sli.desktop.in.h:1 src/sli-kde.desktop.in.h:1
-#, fuzzy
 msgid "Salix-Live Installation"
 msgstr "स्लैकल-लाइव इंस्टॉल"
 
-#~ msgid ""
-#~ "Your two user password entries do not match. Please verify and correct."
+#~ msgid "Your two user password entries do not match. Please verify and correct."
 #~ msgstr "उपयोक्ता कूटशब्द प्रविष्टियाँ मेल नहीं खाती हैं। कृपया जाँचकर सुधारें।"
 
-#~ msgid ""
-#~ "Your two root password entries do not match. Please verify and correct."
+#~ msgid "Your two root password entries do not match. Please verify and correct."
 #~ msgstr "रुट कूटशब्द प्रविष्टियाँ मेल नहीं खाती हैं। कृपया जाँचकर सुधारें।"
 
 #~ msgid "root password"
