@@ -258,7 +258,7 @@ void do_action (gboolean copy) {
 	}
 
 	label = (GtkWidget *) gtk_builder_get_object(widgetstree, "label20"); 
-    locale = g_strdup(gtk_label_get_text(GTK_LABEL(label)));
+    	locale = g_strdup(gtk_label_get_text(GTK_LABEL(label)));
 	if (strlen(locale) == 0) {
 		locale = g_strdup("");
 	}
@@ -794,7 +794,7 @@ void on_continentlist_cursor_changed(GtkTreeView       *treeview,
 	locationliststore = GTK_LIST_STORE(model);
 	GtkTreeSelection *selection;
 	selection = gtk_tree_view_get_selection(treeview);
-    GtkWidget *label;
+    	GtkWidget *label;
     	
    if (gtk_tree_selection_get_selected(GTK_TREE_SELECTION(selection), &model, &iter)) {
 		gtk_tree_model_get (model, &iter, 0, &location, -1);
@@ -860,8 +860,8 @@ void on_continentlist_cursor_changed(GtkTreeView       *treeview,
 				}
 			}
 			
-           row_count ++;
-           valid = gtk_tree_model_iter_next (model, &iter);
+           	row_count ++;
+           	valid = gtk_tree_model_iter_next (model, &iter);
 		} 
 	}
 }
